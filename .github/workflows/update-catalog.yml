@@ -1,0 +1,126 @@
+name: Update live catalog and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 06:06 China Standard Time (UTC+8). GitHub schedules may be delayed.
+    - cron: '6 22 * * *'
+  workflow_dispatch:
+
+# Grant only the permissions needed by each job, not repository-wide defaults.
+permissions: {}
+concurrency:
+  group: live-catalog-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      source_outcome: ${{ steps.source.outcome }}
+      catalog_commit: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Test live parser and failure guards offline
+        run: python -m unittest discover -s tests -p 'update_test.py' -v
+      - name: Fetch and validate the complete live source
+        id: source
+        # Publish an honest failed-check status against the last-good data, then
+        # the final verdict job marks the entire workflow FAILED after deployment.
+        continue-on-error: true
+        run: python scripts/update_catalog.py --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      - name: Build cache-safe assets and bound retained generations
+        run: python scripts/build_assets.py --prune
+      - name: Validate data, interface and generated assets before committing
+        run: |
+          python -m unittest discover -s tests -p '*test.py' -v
+          npm test
+          node --check app.js
+          node --check lib/catalog.mjs
+          python scripts/build_assets.py --check
+      - name: Commit only validated catalog, status and generated assets
+        id: commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/catalog.json data/provenance.json data/update-status.json assets index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: check live resource catalog'
+            # No force/rebase: concurrent maintainer edits fail safely rather than
+            # silently overwrite or deploy a catalog not present on main.
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "Catalog commit: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+      - name: Prepare static-only Pages artifact
+        run: |
+          mkdir _site
+          cp index.html CNAME _site/
+          cp -R assets _site/
+          mkdir _site/data
+          cp data/catalog.json data/provenance.json data/update-status.json _site/data/
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Write observable run summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('data/update-status.json')
+          if p.exists():
+              s = json.loads(p.read_text())
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+                  out.write('## Live source check\n\n')
+                  for key in ('status', 'attemptedAt', 'checkedAt', 'updatedAt', 'catalogDigest', 'counts'):
+                      out.write(f'- **{key}**: `{s.get(key)}`\n')
+          PY
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Deploy in THIS workflow: a GITHUB_TOKEN push does not trigger a second
+      # push workflow / branch Pages build. No PAT, key or extra secret needed.
+      - name: Deploy verified artifact to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  verdict:
+    if: always()
+    needs: [refresh, deploy]
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Fail visibly if live collection or deployment failed
+        env:
+          REFRESH_RESULT: ${{ needs.refresh.result }}
+          SOURCE_RESULT: ${{ needs.refresh.outputs.source_outcome }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+        run: |
+          if [ "$REFRESH_RESULT" != success ] || [ "$SOURCE_RESULT" != success ] || [ "$DEPLOY_RESULT" != success ]; then
+            echo '::error::Live update or deployment failed. Last-good catalog is retained; inspect source and deployment logs.'
+            exit 1
+          fi
