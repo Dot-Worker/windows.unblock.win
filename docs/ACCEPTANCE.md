@@ -26,7 +26,8 @@
 
 本文件记录首个提交前的检查状态。当前执行环境未能启动本地 Chromium 自动化，因此浏览器视觉、真实剪贴板、手机溢出和实际交互不能据此标为通过。发布后应通过实际站点补充检查并更新本记录。
 
-- GitHub Actions 远端检查：等待首个提交。
-- GitHub Pages 构建与 msdn.unblock.win 域名 / HTTPS：等待发布。
+- GitHub Actions 远端检查：提交 `457d4f05ce2c67a4d858601a623db9af10d312f7` 的检查已成功（[运行记录](https://github.com/Dot-Worker/windows.unblock.win/actions/runs/40224402115)）。
+- 远端 ZIP 回读：上述提交的 16 个文件与本地逐字节一致，回读版本重新运行 18 项测试全部通过。
+- GitHub Pages 已保存 main / 根目录发布源及 `msdn.unblock.win` 域名；DNS 检查成功。首次构建和可访问页面仍待确认，GitHub 的 HTTPS 强制选项暂未就绪。
 - 桌面与手机页面视觉、级联选项、搜索、分页、卡片 / 列表切换、详情开关：等待真实浏览器检查。
 - 外部安装文件链接是否仍可下载：不在本次验证范围。
