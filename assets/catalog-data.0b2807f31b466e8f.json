@@ -2,23 +2,26 @@
   "meta": {
     "schemaVersion": 1,
     "sourceRepository": "https://github.com/wangzhenjjcn/Microsoft_Resources",
-    "sourceRevision": "f69e23f8bf478004d45abd56757674155b1ece0a",
-    "importedAt": "2026-10-25T18:54:00Z",
-    "sourceSnapshotDate": "2025-10-09",
+    "sourceRevision": null,
+    "importedAt": "2026-10-25T20:08:52Z",
+    "sourceSnapshotDate": null,
     "productCount": 46,
     "resourceCount": 209,
-    "sourceRowCount": 244,
-    "sourceDownloadOccurrences": 514,
+    "sourceRowCount": 199,
+    "sourceDownloadOccurrences": 258,
     "downloadCount": 255,
-    "notice": "Third-party source snapshot. Links, dates, sizes and hashes are source-reported, not independently verified. Availability and authenticity are not guaranteed.",
-    "provenanceFile": "provenance.json"
+    "notice": "Live third-party HTML catalog. Links, dates, sizes and hashes are source-reported, not independently verified. Availability and authenticity are not guaranteed.",
+    "provenanceFile": "../data/provenance.json",
+    "sourceMode": "live-html",
+    "sourceSite": "https://www.imsdn.cn",
+    "sourceContentDigest": "f48f753dc5e14e1de81bd24a2c4ad17ec8e73aeeb87245100c69cde4a78b95c0"
   },
   "products": [
     {
       "id": "office-2007",
       "title": "Office 2007",
       "family": "Office",
-      "intro": "发行时间：2007年1月27日主流支持结束日期：2012年10月9日扩展支持结束日期：2017年10月10日提供简体中文、繁体中文、英文的企业版、专业版、标准版下载。",
+      "intro": "发行时间：2007年1月27日 主流支持结束日期：2012年10月9日 扩展支持结束日期：2017年10月10日 提供简体中文、繁体中文、英文的企业版、专业版、标准版下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2007",
       "sourcePath": "docs/applications/office-2007/data.json"
     },
@@ -26,7 +29,7 @@
       "id": "office-2010",
       "title": "Office 2010",
       "family": "Office",
-      "intro": "发行时间：2010年7月15日主流支持结束日期：2015年10月13日扩展支持结束日期：2020年10月13日提供简体中文、繁体中文、英文的专业版增强版、标准版下载。",
+      "intro": "发行时间：2010年7月15日 主流支持结束日期：2015年10月13日 扩展支持结束日期：2020年10月13日 提供简体中文、繁体中文、英文的专业版增强版、标准版下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2010",
       "sourcePath": "docs/applications/office-2010/data.json"
     },
@@ -34,7 +37,7 @@
       "id": "office-2013",
       "title": "Office 2013",
       "family": "Office",
-      "intro": "发行时间：2013年1月9日主流支持结束日期：2018年4月10日扩展支持结束日期：2023年4月11日提供简体中文、繁体中文、英文的专业版增强版下载。",
+      "intro": "发行时间：2013年1月9日 主流支持结束日期：2018年4月10日 扩展支持结束日期：2023年4月11日 提供简体中文、繁体中文、英文的专业版增强版下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2013",
       "sourcePath": "docs/applications/office-2013/data.json"
     },
@@ -42,7 +45,7 @@
       "id": "office-2016",
       "title": "Office 2016",
       "family": "Office",
-      "intro": "发行时间：2015年9月22日主流支持结束日期：2020年10月13日扩展支持结束日期：2025年10月14日提供简体中文、繁体中文、英文的专业版增强版下载。",
+      "intro": "发行时间：2015年9月22日 主流支持结束日期：2020年10月13日 扩展支持结束日期：2025年10月14日 提供简体中文、繁体中文、英文的专业版增强版下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2016",
       "sourcePath": "docs/applications/office-2016/data.json"
     },
@@ -50,7 +53,7 @@
       "id": "office-2019",
       "title": "Office 2019",
       "family": "Office",
-      "intro": "发行时间：2018年9月24日主流支持结束日期：2023年10月10日扩展支持结束日期：2025年10月14日提供简体中文专业版增强版下载。",
+      "intro": "发行时间：2018年9月24日 主流支持结束日期：2023年10月10日 扩展支持结束日期：2025年10月14日 提供简体中文专业版增强版下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2019",
       "sourcePath": "docs/applications/office-2019/data.json"
     },
@@ -58,7 +61,7 @@
       "id": "office-2021",
       "title": "Office 2021 专业版增强版",
       "family": "Office",
-      "intro": "发行时间：2021年10月5日主流支持结束日期：2026年10月13日扩展支持结束日期：2026年10月13日提供简体中文/繁体中文/英文下载。",
+      "intro": "发行时间：2021年10月5日 主流支持结束日期：2026年10月13日 扩展支持结束日期：2026年10月13日 提供简体中文/繁体中文/英文下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2021",
       "sourcePath": "docs/applications/office-2021/data.json"
     },
@@ -66,7 +69,7 @@
       "id": "office-2024",
       "title": "Office 2024 专业版增强版",
       "family": "Office",
-      "intro": "发行时间：2024年10月1日主流支持结束日期：2029年10月9日扩展支持结束日期：2029年10月9日提供简体中文/繁体中文/英文下载。",
+      "intro": "发行时间：2024年10月1日 主流支持结束日期：2029年10月9日 扩展支持结束日期：2029年10月9日 提供简体中文/繁体中文/英文下载。",
       "sourceUrl": "https://www.imsdn.cn/applications/office-2024",
       "sourcePath": "docs/applications/office-2024/data.json"
     },
@@ -74,7 +77,7 @@
       "id": "windows-7",
       "title": "Windows 7",
       "family": "Windows",
-      "intro": "发行时间：2009年10月22日内核版本号：Windows NT 6.1主流支持结束日期：2015-01-13扩展支持结束日期：2020-01-14提供企业版、旗舰版、专业版下载",
+      "intro": "发行时间：2009年10月22日 内核版本号：Windows NT 6.1 主流支持结束日期：2015-01-13 扩展支持结束日期：2020-01-14 提供企业版、旗舰版、专业版下载",
       "sourceUrl": "https://www.imsdn.cn/operating-systems/windows-7",
       "sourcePath": "docs/operating-systems/windows-7/data.json"
     },
@@ -82,7 +85,7 @@
       "id": "windows-8",
       "title": "Windows 8",
       "family": "Windows",
-      "intro": "发行时间：2012年10月30日内核版本号：Windows NT 6.2主流支持结束日期：2016-01-12扩展支持结束日期：2016-01-12提供企业版、专业版下载",
+      "intro": "发行时间：2012年10月30日 内核版本号：Windows NT 6.2 主流支持结束日期：2016-01-12 扩展支持结束日期：2016-01-12 提供企业版、专业版下载",
       "sourceUrl": "https://www.imsdn.cn/operating-systems/windows-8",
       "sourcePath": "docs/operating-systems/windows-8/data.json"
     },
@@ -90,7 +93,7 @@
       "id": "windows-8-1",
       "title": "Windows 8.1",
       "family": "Windows",
-      "intro": "发行时间：2013年11月13日内核版本号：Windows NT 6.3主流支持结束日期：2018-01-09扩展支持结束日期：2023-01-10提供企业版、专业版下载",
+      "intro": "发行时间：2013年11月13日 内核版本号：Windows NT 6.3 主流支持结束日期：2018-01-09 扩展支持结束日期：2023-01-10 提供企业版、专业版下载",
       "sourceUrl": "https://www.imsdn.cn/operating-systems/windows-8-1",
       "sourcePath": "docs/operating-systems/windows-8-1/data.json"
     },
@@ -98,7 +101,7 @@
       "id": "windows-xp",
       "title": "Windows XP",
       "family": "Windows",
-      "intro": "发行时间：2001年12月31日内核版本号：Windows NT 5.1主流支持结束日期：2009-04-14扩展支持结束日期：2014-04-08",
+      "intro": "发行时间：2001年12月31日 内核版本号：Windows NT 5.1 主流支持结束日期：2009-04-14 扩展支持结束日期：2014-04-08",
       "sourceUrl": "https://www.imsdn.cn/operating-systems/windows-xp",
       "sourcePath": "docs/operating-systems/windows-xp/data.json"
     },
@@ -106,7 +109,7 @@
       "id": "sql-server-2005",
       "title": "SQL SERVER 2005",
       "family": "SQL Server",
-      "intro": "发行时间：2006年1月14日主流支持结束日期：2011年4月12日扩展支持结束日期：2016年4月12日提供开发版、企业版、标准版、免费版等各版本下载。",
+      "intro": "发行时间：2006年1月14日 主流支持结束日期：2011年4月12日 扩展支持结束日期：2016年4月12日 提供开发版、企业版、标准版、免费版等各版本下载。",
       "sourceUrl": "https://www.imsdn.cn/servers/sql-server-2005",
       "sourcePath": "docs/servers/sql-server-2005/data.json"
     },
@@ -114,7 +117,7 @@
       "id": "sql-server-2008-r2",
       "title": "SQL SERVER 2008 R2",
       "family": "SQL Server",
-      "intro": "发行时间：2010年7月20日主流支持结束日期：2014年7月8日扩展支持结束日期：2019年7月9日提供开发版、企业版、标准版、免费版等各版本下载。",
+      "intro": "发行时间：2010年7月20日 主流支持结束日期：2014年7月8日 扩展支持结束日期：2019年7月9日 提供开发版、企业版、标准版、免费版等各版本下载。",
       "sourceUrl": "https://www.imsdn.cn/servers/sql-server-2008-r2",
       "sourcePath": "docs/servers/sql-server-2008-r2/data.json"
     },
@@ -122,7 +125,7 @@
       "id": "sql-server-2012",
       "title": "SQL SERVER 2012",
       "family": "SQL Server",
-      "intro": "发行时间：2012年5月20日主流支持结束日期：2017年7月11日扩展支持结束日期：2022年7月12日提供开发版、企业版、标准版、免费版等各版本下载。",
+      "intro": "发行时间：2012年5月20日 主流支持结束日期：2017年7月11日 扩展支持结束日期：2022年7月12日 提供开发版、企业版、标准版、免费版等各版本下载。",
       "sourceUrl": "https://www.imsdn.cn/servers/sql-server-2012",
       "sourcePath": "docs/servers/sql-server-2012/data.json"
     },
@@ -130,7 +133,7 @@
       "id": "sql-server-2014",
       "title": "SQL SERVER 2014",
       "family": "SQL Server",
-      "intro": "发行时间：2014年6月5日主流支持结束日期：2019年7月9日扩展支持结束日期：2024年7月9日提供开发版、企业版、标准版、免费版等各版本下载。",
+      "intro": "发行时间：2014年6月5日 主流支持结束日期：2019年7月9日 扩展支持结束日期：2024年7月9日 提供开发版、企业版、标准版、免费版等各版本下载。",
       "sourceUrl": "https://www.imsdn.cn/servers/sql-server-2014",
       "sourcePath": "docs/servers/sql-server-2014/data.json"
     },
@@ -138,7 +141,7 @@
       "id": "sql-server-2016",
       "title": "SQL SERVER 2016",
       "family": "SQL Server",
-      "intro": "发行时间：2016年6月1日主流支持结束日期：2021年7月13日扩展支持结束日期：2026年7月14日提供开发版、企业版、免费版等各版本下载。",
+      "intro": "发行时间：2016年6月1日 主流支持结束日期：2021年7月13日 扩展支持结束日期：2026年7月14日 提供开发版、企业版、免费版等各版本下载。",
       "sourceUrl": "https://www.imsdn.cn/servers/sql-server-2016",
       "sourcePath": "docs/servers/sql-server-2016/data.json"
     },
@@ -146,7 +149,7 @@
       "id": "sql-server-2019",
       "title": "SQL SERVER 2019",
       "family": "SQL Server",
-      "intro": "发行时间：2019年11月4日主流支持结束日期：2025年1月14日扩展支持结束日期：2030年1月8日提供开发版、企业版、标准版、免费版等各版本下载。",
+      "intro": "发行时间：2019年11月4日 主流支持结束日期：2025年1月14日 扩展支持结束日期：2030年1月8日 提供开发版、企业版、标准版、免费版等各版本下载。",
       "sourceUrl": "https://www.imsdn.cn/servers/sql-server-2019",
       "sourcePath": "docs/servers/sql-server-2019/data.json"
     },
@@ -154,103 +157,103 @@
       "id": "win10-1511",
       "title": "Windows 10 1511",
       "family": "Windows 10",
-      "intro": "发行时间：2015年11月10日主流支持结束日期：2017年10月10日扩展支持结束日期：2017年10月10日内核版本号：Windows NT 10.0多版本：内含家庭版、专业版。企业版教育版",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "intro": "发行时间：2015年11月10日 主流支持结束日期：2017年10月10日 扩展支持结束日期：2017年10月10日 内核版本号：Windows NT 10.0 多版本：内含家庭版、专业版。 企业版 教育版",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "sourcePath": "docs/windows-10/win10-1511/data.json"
     },
     {
       "id": "win10-1607",
       "title": "Windows 10 1607",
       "family": "Windows 10",
-      "intro": "发行时间：2016年8月2日主流支持结束日期：2019年4月9日扩展支持结束日期：2019年4月9日内核版本号：Windows NT 10.0多版本：内含家庭版、专业版。企业版",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607/",
+      "intro": "发行时间：2016年8月2日 主流支持结束日期：2019年4月9日 扩展支持结束日期：2019年4月9日 内核版本号：Windows NT 10.0 多版本：内含家庭版、专业版。 企业版",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607",
       "sourcePath": "docs/windows-10/win10-1607/data.json"
     },
     {
       "id": "win10-1703",
       "title": "Windows 10 1703",
       "family": "Windows 10",
-      "intro": "发行时间：2017年4月11日主流支持结束日期：2019年10月8日扩展支持结束日期：2019年10月8日内核版本号：Windows NT 10.0多版本：内含家庭版、专业版。企业版",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703/",
+      "intro": "发行时间：2017年4月11日 主流支持结束日期：2019年10月8日 扩展支持结束日期：2019年10月8日 内核版本号：Windows NT 10.0 多版本：内含家庭版、专业版。 企业版",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703",
       "sourcePath": "docs/windows-10/win10-1703/data.json"
     },
     {
       "id": "win10-1709",
       "title": "Windows 10 1709",
       "family": "Windows 10",
-      "intro": "发行时间：2017年10月17日主流支持结束日期：2019年4月9日扩展支持结束日期：2020年9月13日内核版本号：Windows NT 10.0多版本：内含家庭版、家庭单语言版、专业版、教育版。多版本 VL：内含企业版、专业版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709/",
+      "intro": "发行时间：2017年10月17日 主流支持结束日期：2019年4月9日 扩展支持结束日期：2020年9月13日 内核版本号：Windows NT 10.0 多版本：内含家庭版、家庭单语言版、专业版、教育版。 多版本 VL：内含企业版、专业版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709",
       "sourcePath": "docs/windows-10/win10-1709/data.json"
     },
     {
       "id": "win10-1803",
       "title": "Windows 10 1803",
       "family": "Windows 10",
-      "intro": "发行时间：2018年4月30日主流支持结束日期：2020年5月11日扩展支持结束日期：2021年5月11日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803/",
+      "intro": "发行时间：2018年4月30日 主流支持结束日期：2020年5月11日 扩展支持结束日期：2021年5月11日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803",
       "sourcePath": "docs/windows-10/win10-1803/data.json"
     },
     {
       "id": "win10-1809",
       "title": "Windows 10 1809",
       "family": "Windows 10",
-      "intro": "发行时间：2018年11月13日主流支持结束日期：2020年5月11日扩展支持结束日期：2021年5月11日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809/",
+      "intro": "发行时间：2018年11月13日 主流支持结束日期：2020年5月11日 扩展支持结束日期：2021年5月11日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809",
       "sourcePath": "docs/windows-10/win10-1809/data.json"
     },
     {
       "id": "win10-1903",
       "title": "Windows 10 1903",
       "family": "Windows 10",
-      "intro": "发行时间：2019年4月19日主流支持结束日期：2020年12月8日扩展支持结束日期：2020年12月8日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903/",
+      "intro": "发行时间：2019年4月19日 主流支持结束日期：2020年12月8日 扩展支持结束日期：2020年12月8日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903",
       "sourcePath": "docs/windows-10/win10-1903/data.json"
     },
     {
       "id": "win10-1909",
       "title": "Windows 10 1909",
       "family": "Windows 10",
-      "intro": "发行时间：2019年11月12日主流支持结束日期：2022年5月10日扩展支持结束日期：2022年5月10日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909/",
+      "intro": "发行时间：2019年11月12日 主流支持结束日期：2022年5月10日 扩展支持结束日期：2022年5月10日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909",
       "sourcePath": "docs/windows-10/win10-1909/data.json"
     },
     {
       "id": "win10-2004",
       "title": "Windows 10 2004",
       "family": "Windows 10",
-      "intro": "发行时间：2020年5月27日主流支持结束日期：2021年12月14日扩展支持结束日期：2021年12月14日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004/",
+      "intro": "发行时间：2020年5月27日 主流支持结束日期：2021年12月14日 扩展支持结束日期：2021年12月14日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004",
       "sourcePath": "docs/windows-10/win10-2004/data.json"
     },
     {
       "id": "win10-20h2",
       "title": "Windows 10 20H2",
       "family": "Windows 10",
-      "intro": "发行时间：2020年10月20日主流支持结束日期：2023年5月9日扩展支持结束日期：2023年5月9日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2/",
+      "intro": "发行时间：2020年10月20日 主流支持结束日期：2023年5月9日 扩展支持结束日期：2023年5月9日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2",
       "sourcePath": "docs/windows-10/win10-20h2/data.json"
     },
     {
       "id": "win10-21h1",
       "title": "Windows 10 21H1",
       "family": "Windows 10",
-      "intro": "发行时间：2021年5月18日主流支持结束日期：2022年12月13日扩展支持结束日期：2022年12月13日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1/",
+      "intro": "发行时间：2021年5月18日 主流支持结束日期：2022年12月13日 扩展支持结束日期：2022年12月13日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1",
       "sourcePath": "docs/windows-10/win10-21h1/data.json"
     },
     {
       "id": "win10-21h2",
       "title": "Windows 10 21H2",
       "family": "Windows 10",
-      "intro": "发行时间：2021年11月16日主流支持结束日期：2024年6月11日扩展支持结束日期：2024年6月11日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2/",
+      "intro": "发行时间：2021年11月16日 主流支持结束日期：2024年6月11日 扩展支持结束日期：2024年6月11日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2",
       "sourcePath": "docs/windows-10/win10-21h2/data.json"
     },
     {
       "id": "win10-22h2",
       "title": "Windows 10 22H2",
       "family": "Windows 10",
-      "intro": "发行时间：2022年10月18日主流支持结束日期：2025年10月14日扩展支持结束日期：2028年10月10日内核版本号：Windows NT 10.0消费者版本：内含家庭版、家庭单语言版、专业版、教育版。商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
+      "intro": "发行时间：2022年10月18日 主流支持结束日期：2025年10月14日 扩展支持结束日期：2028年10月10日 内核版本号：Windows NT 10.0 消费者版本：内含家庭版、家庭单语言版、专业版、教育版。 商业版：内含企业版、专业版、专业教育版、专业工作站版、教育版。",
       "sourceUrl": "https://www.imsdn.cn/windows-10/win10-22h2",
       "sourcePath": "docs/windows-10/win10-22h2/data.json"
     },
@@ -258,15 +261,15 @@
       "id": "win10-ltsc",
       "title": "Windows 10 长期服务版",
       "family": "Windows 10",
-      "intro": "发行时间：2015年7月29日内核版本号：Windows NT 10.0",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "intro": "发行时间：2015年7月29日 内核版本号：Windows NT 10.0",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "sourcePath": "docs/windows-10/win10-ltsc/data.json"
     },
     {
       "id": "win11-21h2",
       "title": "Windows 11 21H2",
       "family": "Windows 11",
-      "intro": "发行时间：2021年10月4日主流支持结束日期：2024年10月8日扩展支持结束日期：2024年10月8日内核版本号：Windows NT 10.0Windows 11主要分为两个大版本：消费者版本和商业版。消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
+      "intro": "发行时间：2021年10月4日 主流支持结束日期：2024年10月8日 扩展支持结束日期：2024年10月8日 内核版本号：Windows NT 10.0 Windows 11主要分为两个大版本：消费者版本和商业版。 消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。 商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-21h2",
       "sourcePath": "docs/windows-11/win11-21h2/data.json"
     },
@@ -274,7 +277,7 @@
       "id": "win11-22h2",
       "title": "Windows 11 22H2",
       "family": "Windows 11",
-      "intro": "发行时间：2022年09月20日主流支持结束日期：2025年10月14日扩展支持结束日期：2025年10月14日内核版本号：Windows NT 10.0Windows 11主要分为两个大版本：消费者版本和商业版。消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
+      "intro": "发行时间：2022年09月20日 主流支持结束日期：2025年10月14日 扩展支持结束日期：2025年10月14日 内核版本号：Windows NT 10.0 Windows 11主要分为两个大版本：消费者版本和商业版。 消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。 商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-22h2",
       "sourcePath": "docs/windows-11/win11-22h2/data.json"
     },
@@ -282,7 +285,7 @@
       "id": "win11-23h2",
       "title": "Windows 11 23H2",
       "family": "Windows 11",
-      "intro": "发行时间：2023年10月31日主流支持结束日期：2025年11月11日扩展支持结束日期：2025年11月11日内核版本号：Windows NT 10.0Windows 11主要分为两个大版本：消费者版本和商业版。消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
+      "intro": "发行时间：2023年10月31日 主流支持结束日期：2025年11月11日 扩展支持结束日期：2025年11月11日 内核版本号：Windows NT 10.0 Windows 11主要分为两个大版本：消费者版本和商业版。 消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。 商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-23h2",
       "sourcePath": "docs/windows-11/win11-23h2/data.json"
     },
@@ -290,7 +293,7 @@
       "id": "win11-24h2",
       "title": "Windows 11 24H2",
       "family": "Windows 11",
-      "intro": "发行时间：2024年10月01日主流支持结束日期：2027年10月12日扩展支持结束日期：2027年10月12日内核版本号：Windows NT 10.0Windows 11主要分为两个大版本：消费者版本和商业版。消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
+      "intro": "发行时间：2024年10月01日 主流支持结束日期：2027年10月12日 扩展支持结束日期：2027年10月12日 内核版本号：Windows NT 10.0 Windows 11主要分为两个大版本：消费者版本和商业版。 消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。 商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-24h2",
       "sourcePath": "docs/windows-11/win11-24h2/data.json"
     },
@@ -298,7 +301,7 @@
       "id": "win11-arm",
       "title": "Windows 11 64位ARM",
       "family": "Windows 11",
-      "intro": "发行时间：2021年6月24日内核版本号：Windows NT 10.0内含专业版、家庭版等。",
+      "intro": "发行时间：2021年6月24日 内核版本号：Windows NT 10.0 内含专业版、家庭版等。",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-arm",
       "sourcePath": "docs/windows-11/win11-arm/data.json"
     },
@@ -306,7 +309,7 @@
       "id": "win11-ltsc",
       "title": "Windows 11 24H2 长期服务版",
       "family": "Windows 11",
-      "intro": "发行时间：2024年10月01日主流支持结束日期：2029年10月09日扩展支持结束日期：2029年10月09日内核版本号：Windows NT 10.0",
+      "intro": "发行时间：2024年10月01日 主流支持结束日期：2029年10月09日 扩展支持结束日期：2029年10月09日 内核版本号：Windows NT 10.0",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-ltsc",
       "sourcePath": "docs/windows-11/win11-ltsc/data.json"
     },
@@ -314,7 +317,7 @@
       "id": "win11-rtm",
       "title": "Windows 11 RTM",
       "family": "Windows 11",
-      "intro": "发行时间：2021年6月24日内核版本号：Windows NT 10.0Windows 11主要分为两个大版本：消费者版本和商业版。消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
+      "intro": "发行时间：2021年6月24日 内核版本号：Windows NT 10.0 Windows 11主要分为两个大版本：消费者版本和商业版。 消费者版本：内含家庭版、家庭单语言版、教育版、专业版、专业教育版、专业工作站版。 商业版：内含企业版、教育版、专业版、专业教育版、专业工作站版。",
       "sourceUrl": "https://www.imsdn.cn/windows-11/win11-rtm",
       "sourcePath": "docs/windows-11/win11-rtm/data.json"
     },
@@ -322,7 +325,7 @@
       "id": "windows-server-2008",
       "title": "Windows Server 2008",
       "family": "Windows Server",
-      "intro": "发行时间：2009年4月29日主流支持结束日期：2015年1月13日扩展支持结束日期：2020年1月14日内核版本号：Windows NT 6.0提供简体中文、繁体中文、英文下载镜像。",
+      "intro": "发行时间：2009年4月29日 主流支持结束日期：2015年1月13日 扩展支持结束日期：2020年1月14日 内核版本号：Windows NT 6.0 提供简体中文、繁体中文、英文下载镜像。",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2008",
       "sourcePath": "docs/windows-server/windows-server-2008/data.json"
     },
@@ -330,7 +333,7 @@
       "id": "windows-server-2008-r2",
       "title": "Windows Server 2008 R2",
       "family": "Windows Server",
-      "intro": "发行时间：2011年2月22日主流支持结束日期：2015年1月13日扩展支持结束日期：2020年1月14日内核版本号：Windows NT 6.1提供简体中文、繁体中文、英文下载镜像。",
+      "intro": "发行时间：2011年2月22日 主流支持结束日期：2015年1月13日 扩展支持结束日期：2020年1月14日 内核版本号：Windows NT 6.1 提供简体中文、繁体中文、英文下载镜像。",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2008-r2",
       "sourcePath": "docs/windows-server/windows-server-2008-r2/data.json"
     },
@@ -338,7 +341,7 @@
       "id": "windows-server-2012",
       "title": "Windows Server 2012",
       "family": "Windows Server",
-      "intro": "发行时间：2012年10月30日主流支持结束日期：2018年10月9日扩展支持结束日期：2023年10月10日内核版本号：Windows NT 6.2提供简体中文、英文下载镜像。",
+      "intro": "发行时间：2012年10月30日 主流支持结束日期：2018年10月9日 扩展支持结束日期：2023年10月10日 内核版本号：Windows NT 6.2 提供简体中文、英文下载镜像。",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2012",
       "sourcePath": "docs/windows-server/windows-server-2012/data.json"
     },
@@ -346,7 +349,7 @@
       "id": "windows-server-2012-r2",
       "title": "Windows Server 2012 R2",
       "family": "Windows Server",
-      "intro": "发行时间：2013年11月25日主流支持结束日期：2018年10月9日扩展支持结束日期：2023年10月10日内核版本号：Windows NT 6.3提供简体中文、英文下载镜像。",
+      "intro": "发行时间：2013年11月25日 主流支持结束日期：2018年10月9日 扩展支持结束日期：2023年10月10日 内核版本号：Windows NT 6.3 提供简体中文、英文下载镜像。",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2012-r2",
       "sourcePath": "docs/windows-server/windows-server-2012-r2/data.json"
     },
@@ -354,7 +357,7 @@
       "id": "windows-server-2016",
       "title": "Windows Server 2016",
       "family": "Windows Server",
-      "intro": "发行时间：2016年10月15日主流支持结束日期：2022年1月11日扩展支持结束日期：2027年1月12日内核版本号：Windows NT 10.0提供简体中文、英文下载镜像。",
+      "intro": "发行时间：2016年10月15日 主流支持结束日期：2022年1月11日 扩展支持结束日期：2027年1月12日 内核版本号：Windows NT 10.0 提供简体中文、英文下载镜像。",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2016",
       "sourcePath": "docs/windows-server/windows-server-2016/data.json"
     },
@@ -362,7 +365,7 @@
       "id": "windows-server-2019",
       "title": "Windows Server 2019",
       "family": "Windows Server",
-      "intro": "发行时间：2018年11月13日主流支持结束日期：2024年1月9日扩展支持结束日期：2029年1月9日内核版本号：Windows NT 10.0提供简体中文、英文下载镜像。",
+      "intro": "发行时间：2018年11月13日 主流支持结束日期：2024年1月9日 扩展支持结束日期：2029年1月9日 内核版本号：Windows NT 10.0 提供简体中文、英文下载镜像。",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2019",
       "sourcePath": "docs/windows-server/windows-server-2019/data.json"
     },
@@ -370,7 +373,7 @@
       "id": "windows-server-2022",
       "title": "Windows Server 2022",
       "family": "Windows Server",
-      "intro": "发行时间：2021年8月18日主流支持结束日期：2026年10月13日扩展支持结束日期：2031年10月14日内核版本号：Windows NT 10.0",
+      "intro": "发行时间：2021年8月18日 主流支持结束日期：2026年10月13日 扩展支持结束日期：2031年10月14日 内核版本号：Windows NT 10.0",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2022",
       "sourcePath": "docs/windows-server/windows-server-2022/data.json"
     },
@@ -378,7 +381,7 @@
       "id": "windows-server-2025",
       "title": "Windows Server 2025",
       "family": "Windows Server",
-      "intro": "发行时间：2024年11月1日主流支持结束日期：2029年10月9日扩展支持结束日期：2034年10月10日内核版本号：Windows NT 10.0",
+      "intro": "发行时间：2024年11月1日 主流支持结束日期：2029年10月9日 扩展支持结束日期：2034年10月10日 内核版本号：Windows NT 10.0",
       "sourceUrl": "https://www.imsdn.cn/windows-server/windows-server-2025",
       "sourcePath": "docs/windows-server/windows-server-2025/data.json"
     }
@@ -418,10 +421,6 @@
         },
         {
           "rowId": "office-2007:1",
-          "metadataApplied": true
-        },
-        {
-          "rowId": "office-2007:2",
           "metadataApplied": false
         }
       ],
@@ -457,15 +456,11 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2007:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2007:4",
+          "rowId": "office-2007:3",
           "metadataApplied": true
         },
         {
-          "rowId": "office-2007:5",
+          "rowId": "office-2007:4",
           "metadataApplied": false
         }
       ],
@@ -496,11 +491,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2007:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2007:7",
+          "rowId": "office-2007:6",
           "metadataApplied": false
         }
       ],
@@ -536,11 +527,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2007:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2007:3",
+          "rowId": "office-2007:2",
           "metadataApplied": true
         }
       ],
@@ -571,11 +558,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2007:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2007:6",
+          "rowId": "office-2007:5",
           "metadataApplied": false
         }
       ],
@@ -613,10 +596,6 @@
         {
           "rowId": "office-2010:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "office-2010:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -651,11 +630,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2010:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2010:4",
+          "rowId": "office-2010:3",
           "metadataApplied": true
         }
       ],
@@ -691,11 +666,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2010:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2010:2",
+          "rowId": "office-2010:1",
           "metadataApplied": true
         }
       ],
@@ -731,11 +702,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2010:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2010:3",
+          "rowId": "office-2010:2",
           "metadataApplied": true
         }
       ],
@@ -771,11 +738,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:3",
+          "rowId": "office-2013:2",
           "metadataApplied": true
         }
       ],
@@ -811,11 +774,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:4",
+          "rowId": "office-2013:3",
           "metadataApplied": true
         }
       ],
@@ -851,11 +810,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:5",
+          "rowId": "office-2013:4",
           "metadataApplied": true
         }
       ],
@@ -891,11 +846,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:6",
+          "rowId": "office-2013:5",
           "metadataApplied": true
         }
       ],
@@ -931,11 +882,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:7",
+          "rowId": "office-2013:6",
           "metadataApplied": true
         }
       ],
@@ -971,11 +918,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:8",
+          "rowId": "office-2013:7",
           "metadataApplied": true
         }
       ],
@@ -1013,10 +956,6 @@
         {
           "rowId": "office-2013:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "office-2013:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -1051,11 +990,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2013:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2013:2",
+          "rowId": "office-2013:1",
           "metadataApplied": true
         }
       ],
@@ -1093,10 +1028,6 @@
         {
           "rowId": "office-2016:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "office-2016:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -1131,11 +1062,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2016:2",
+          "rowId": "office-2016:1",
           "metadataApplied": true
         }
       ],
@@ -1171,11 +1098,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2016:3",
+          "rowId": "office-2016:2",
           "metadataApplied": true
         }
       ],
@@ -1213,10 +1136,6 @@
         {
           "rowId": "office-2019:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "office-2019:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -1246,11 +1165,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2021:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:2",
+          "rowId": "office-2021:1",
           "metadataApplied": false
         }
       ],
@@ -1283,10 +1198,6 @@
         {
           "rowId": "office-2021:0",
           "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:1",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "link-only",
@@ -1316,11 +1227,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2021:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:3",
+          "rowId": "office-2021:2",
           "metadataApplied": false
         }
       ],
@@ -1351,11 +1258,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2021:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:2",
+          "rowId": "office-2021:1",
           "metadataApplied": false
         }
       ],
@@ -1388,10 +1291,6 @@
         {
           "rowId": "office-2021:0",
           "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:1",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "link-only",
@@ -1421,11 +1320,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2021:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:3",
+          "rowId": "office-2021:2",
           "metadataApplied": false
         }
       ],
@@ -1456,11 +1351,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2021:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:2",
+          "rowId": "office-2021:1",
           "metadataApplied": false
         }
       ],
@@ -1493,10 +1384,6 @@
         {
           "rowId": "office-2021:0",
           "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:1",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "link-only",
@@ -1526,11 +1413,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2021:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2021:3",
+          "rowId": "office-2021:2",
           "metadataApplied": false
         }
       ],
@@ -1561,11 +1444,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2024:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:2",
+          "rowId": "office-2024:1",
           "metadataApplied": false
         }
       ],
@@ -1598,10 +1477,6 @@
         {
           "rowId": "office-2024:0",
           "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:1",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "link-only",
@@ -1631,11 +1506,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2024:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:3",
+          "rowId": "office-2024:2",
           "metadataApplied": false
         }
       ],
@@ -1666,11 +1537,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2024:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:2",
+          "rowId": "office-2024:1",
           "metadataApplied": false
         }
       ],
@@ -1703,10 +1570,6 @@
         {
           "rowId": "office-2024:0",
           "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:1",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "link-only",
@@ -1736,11 +1599,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2024:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:3",
+          "rowId": "office-2024:2",
           "metadataApplied": false
         }
       ],
@@ -1771,11 +1630,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2024:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:2",
+          "rowId": "office-2024:1",
           "metadataApplied": false
         }
       ],
@@ -1808,10 +1663,6 @@
         {
           "rowId": "office-2024:0",
           "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:1",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "link-only",
@@ -1841,11 +1692,7 @@
       ],
       "provenance": [
         {
-          "rowId": "office-2024:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "office-2024:3",
+          "rowId": "office-2024:2",
           "metadataApplied": false
         }
       ],
@@ -1917,16 +1764,8 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-7:0",
-          "metadataApplied": true
-        },
-        {
           "rowId": "windows-7:1",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "source-reported",
@@ -1965,10 +1804,6 @@
         }
       ],
       "provenance": [
-        {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
-        },
         {
           "rowId": "windows-7:6",
           "metadataApplied": true
@@ -2011,10 +1846,6 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
-        },
-        {
           "rowId": "windows-7:7",
           "metadataApplied": true
         }
@@ -2055,10 +1886,6 @@
         }
       ],
       "provenance": [
-        {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
-        },
         {
           "rowId": "windows-7:4",
           "metadataApplied": true
@@ -2101,10 +1928,6 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
-        },
-        {
           "rowId": "windows-7:5",
           "metadataApplied": true
         }
@@ -2146,10 +1969,6 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
-        },
-        {
           "rowId": "windows-7:2",
           "metadataApplied": true
         }
@@ -2190,10 +2009,6 @@
         }
       ],
       "provenance": [
-        {
-          "rowId": "windows-7:0",
-          "metadataApplied": false
-        },
         {
           "rowId": "windows-7:3",
           "metadataApplied": true
@@ -2269,14 +2084,6 @@
         {
           "rowId": "windows-8:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-8:1",
-          "metadataApplied": true
-        },
-        {
-          "rowId": "windows-8:0",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "source-reported",
@@ -2316,11 +2123,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8:2",
+          "rowId": "windows-8:1",
           "metadataApplied": true
         }
       ],
@@ -2361,11 +2164,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8:3",
+          "rowId": "windows-8:2",
           "metadataApplied": true
         }
       ],
@@ -2406,11 +2205,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8:4",
+          "rowId": "windows-8:3",
           "metadataApplied": true
         }
       ],
@@ -2453,14 +2248,6 @@
         {
           "rowId": "windows-8-1:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-8-1:1",
-          "metadataApplied": true
-        },
-        {
-          "rowId": "windows-8-1:0",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "source-reported",
@@ -2500,11 +2287,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8-1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8-1:2",
+          "rowId": "windows-8-1:1",
           "metadataApplied": true
         }
       ],
@@ -2545,11 +2328,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8-1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8-1:3",
+          "rowId": "windows-8-1:2",
           "metadataApplied": true
         }
       ],
@@ -2590,11 +2369,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8-1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8-1:4",
+          "rowId": "windows-8-1:3",
           "metadataApplied": true
         }
       ],
@@ -2635,11 +2410,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8-1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8-1:5",
+          "rowId": "windows-8-1:4",
           "metadataApplied": true
         }
       ],
@@ -2680,11 +2451,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-8-1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-8-1:6",
+          "rowId": "windows-8-1:5",
           "metadataApplied": true
         }
       ],
@@ -2725,11 +2492,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-xp:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-xp:2",
+          "rowId": "windows-xp:1",
           "metadataApplied": true
         }
       ],
@@ -2772,14 +2535,6 @@
         {
           "rowId": "windows-xp:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-xp:1",
-          "metadataApplied": true
-        },
-        {
-          "rowId": "windows-xp:0",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "source-reported",
@@ -2819,11 +2574,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-xp:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-xp:3",
+          "rowId": "windows-xp:2",
           "metadataApplied": true
         }
       ],
@@ -2859,11 +2610,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2005:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2005:6",
+          "rowId": "sql-server-2005:5",
           "metadataApplied": true
         }
       ],
@@ -2901,10 +2648,6 @@
         {
           "rowId": "sql-server-2005:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "sql-server-2005:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -2939,11 +2682,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2005:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2005:2",
+          "rowId": "sql-server-2005:1",
           "metadataApplied": true
         }
       ],
@@ -2979,11 +2718,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2005:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2005:3",
+          "rowId": "sql-server-2005:2",
           "metadataApplied": true
         }
       ],
@@ -3019,11 +2754,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2005:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2005:4",
+          "rowId": "sql-server-2005:3",
           "metadataApplied": true
         }
       ],
@@ -3059,11 +2790,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2005:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2005:5",
+          "rowId": "sql-server-2005:4",
           "metadataApplied": true
         }
       ],
@@ -3101,10 +2828,6 @@
         {
           "rowId": "sql-server-2008-r2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "sql-server-2008-r2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -3139,11 +2862,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2008-r2:2",
+          "rowId": "sql-server-2008-r2:1",
           "metadataApplied": true
         }
       ],
@@ -3179,11 +2898,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2008-r2:4",
+          "rowId": "sql-server-2008-r2:3",
           "metadataApplied": true
         }
       ],
@@ -3219,11 +2934,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2008-r2:5",
+          "rowId": "sql-server-2008-r2:4",
           "metadataApplied": true
         }
       ],
@@ -3259,11 +2970,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2008-r2:3",
+          "rowId": "sql-server-2008-r2:2",
           "metadataApplied": true
         }
       ],
@@ -3301,10 +3008,6 @@
         {
           "rowId": "sql-server-2012:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "sql-server-2012:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -3339,11 +3042,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:2",
+          "rowId": "sql-server-2012:1",
           "metadataApplied": true
         }
       ],
@@ -3379,11 +3078,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:3",
+          "rowId": "sql-server-2012:2",
           "metadataApplied": true
         }
       ],
@@ -3419,11 +3114,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:4",
+          "rowId": "sql-server-2012:3",
           "metadataApplied": true
         }
       ],
@@ -3459,11 +3150,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:7",
+          "rowId": "sql-server-2012:6",
           "metadataApplied": true
         }
       ],
@@ -3499,11 +3186,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:8",
+          "rowId": "sql-server-2012:7",
           "metadataApplied": true
         }
       ],
@@ -3539,11 +3222,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:6",
+          "rowId": "sql-server-2012:5",
           "metadataApplied": true
         }
       ],
@@ -3579,11 +3258,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2012:5",
+          "rowId": "sql-server-2012:4",
           "metadataApplied": true
         }
       ],
@@ -3621,10 +3296,6 @@
         {
           "rowId": "sql-server-2014:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "sql-server-2014:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -3659,15 +3330,11 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2014:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2014:2",
+          "rowId": "sql-server-2014:1",
           "metadataApplied": true
         },
         {
-          "rowId": "sql-server-2014:3",
+          "rowId": "sql-server-2014:2",
           "metadataApplied": false
         }
       ],
@@ -3703,11 +3370,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2014:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2014:5",
+          "rowId": "sql-server-2014:4",
           "metadataApplied": true
         }
       ],
@@ -3743,11 +3406,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2014:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2014:6",
+          "rowId": "sql-server-2014:5",
           "metadataApplied": true
         }
       ],
@@ -3783,11 +3442,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2014:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2014:4",
+          "rowId": "sql-server-2014:3",
           "metadataApplied": true
         }
       ],
@@ -3825,10 +3480,6 @@
         {
           "rowId": "sql-server-2016:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "sql-server-2016:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -3863,11 +3514,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2016:2",
+          "rowId": "sql-server-2016:1",
           "metadataApplied": true
         }
       ],
@@ -3902,11 +3549,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2016:3",
+          "rowId": "sql-server-2016:2",
           "metadataApplied": true
         }
       ],
@@ -3944,10 +3587,6 @@
         {
           "rowId": "sql-server-2019:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "sql-server-2019:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -3982,11 +3621,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2019:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2019:2",
+          "rowId": "sql-server-2019:1",
           "metadataApplied": true
         }
       ],
@@ -4022,11 +3657,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2019:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2019:3",
+          "rowId": "sql-server-2019:2",
           "metadataApplied": true
         }
       ],
@@ -4061,11 +3692,7 @@
       ],
       "provenance": [
         {
-          "rowId": "sql-server-2019:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "sql-server-2019:4",
+          "rowId": "sql-server-2019:3",
           "metadataApplied": true
         }
       ],
@@ -4085,7 +3712,7 @@
       "size": "4.15GB",
       "publishedAt": "2016-05-23",
       "sha1": "762FF610775B27309CD2F4EE1759D05BE9425A5B",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "attributes": [
         "文件名：cn_windows_10_education_version_1511_updated_apr_2016_x64_dvd_8713899.iso",
         "文件大小：4.15GB",
@@ -4101,11 +3728,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1511:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1511:3",
+          "rowId": "win10-1511:2",
           "metadataApplied": true
         }
       ],
@@ -4125,7 +3748,7 @@
       "size": "3.11GB",
       "publishedAt": "2016-05-23",
       "sha1": "1BD2334B986AAF6E5AD90BF677CD50DBE9D29F3C",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "attributes": [
         "文件名：cn_windows_10_education_version_1511_updated_apr_2016_x86_dvd_8730220.iso",
         "文件大小：3.11GB",
@@ -4141,11 +3764,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1511:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1511:4",
+          "rowId": "win10-1511:3",
           "metadataApplied": true
         }
       ],
@@ -4165,7 +3784,7 @@
       "size": "4.15GB",
       "publishedAt": "2016-05-23",
       "sha1": "CE10EE453BDD40D04D9EB8A65D0BE46B8E1D8916",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "attributes": [
         "文件名：cn_windows_10_enterprise_version_1511_updated_apr_2016_x64_dvd_8710041.iso",
         "文件大小：4.15GB",
@@ -4182,10 +3801,6 @@
       "provenance": [
         {
           "rowId": "win10-1511:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1511:1",
           "metadataApplied": true
         }
       ],
@@ -4205,7 +3820,7 @@
       "size": "3.1GB",
       "publishedAt": "2016-05-23",
       "sha1": "6C0CAAAB92E01B9DE6D808C6DC50E87FFFCB5857",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "attributes": [
         "文件名：cn_windows_10_enterprise_version_1511_updated_apr_2016_x86_dvd_8712610.iso",
         "文件大小：3.1GB",
@@ -4221,11 +3836,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1511:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1511:2",
+          "rowId": "win10-1511:1",
           "metadataApplied": true
         }
       ],
@@ -4245,7 +3856,7 @@
       "size": "4.35GB",
       "publishedAt": "2016-05-23",
       "sha1": "BBED33CC7BA79F94DF330F331BB76A610AD7C133",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "attributes": [
         "文件名：cn_windows_10_multiple_editions_version_1511_updated_apr_2016_x64_dvd_8712460.iso",
         "文件大小：4.35GB",
@@ -4261,11 +3872,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1511:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1511:5",
+          "rowId": "win10-1511:4",
           "metadataApplied": true
         }
       ],
@@ -4285,7 +3892,7 @@
       "size": "3.3GB",
       "publishedAt": "2016-05-23",
       "sha1": "D070DEE253512267ED8F0F1039DBA121531725DA",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1511",
       "attributes": [
         "文件名：cn_windows_10_multiple_editions_version_1511_updated_apr_2016_x86_dvd_8712808.iso",
         "文件大小：3.3GB",
@@ -4301,11 +3908,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1511:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1511:6",
+          "rowId": "win10-1511:5",
           "metadataApplied": true
         }
       ],
@@ -4325,7 +3928,7 @@
       "size": "4.17GB",
       "publishedAt": "2017-01-19",
       "sha1": "570A5347A2318C533891967120CC21451BD8A6BA",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607",
       "attributes": [
         "文件名：cn_windows_10_enterprise_version_1607_updated_jan_2017_x64_dvd_9714414.iso",
         "文件大小：4.17GB",
@@ -4342,10 +3945,6 @@
       "provenance": [
         {
           "rowId": "win10-1607:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1607:1",
           "metadataApplied": true
         }
       ],
@@ -4365,7 +3964,7 @@
       "size": "3.1GB",
       "publishedAt": "2017-01-19",
       "sha1": "E830FCB0E2EA69C8F2733479FDB05778456C63CE",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607",
       "attributes": [
         "文件名：cn_windows_10_enterprise_version_1607_updated_jan_2017_x86_dvd_9718258.iso",
         "文件大小：3.1GB",
@@ -4381,11 +3980,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1607:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1607:2",
+          "rowId": "win10-1607:1",
           "metadataApplied": true
         }
       ],
@@ -4405,7 +4000,7 @@
       "size": "4.42GB",
       "publishedAt": "2017-01-19",
       "sha1": "163DE39B1E40C02C1E774BBFF6448FB439F61AC0",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607",
       "attributes": [
         "文件名：cn_windows_10_multiple_editions_version_1607_updated_jan_2017_x64_dvd_9714394.iso",
         "文件大小：4.42GB",
@@ -4421,11 +4016,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1607:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1607:3",
+          "rowId": "win10-1607:2",
           "metadataApplied": true
         }
       ],
@@ -4445,7 +4036,7 @@
       "size": "3.37GB",
       "publishedAt": "2017-01-19",
       "sha1": "28CD2AE3CE63144ACD8FB2BFC19D1C96B55FBEC7",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1607",
       "attributes": [
         "文件名：cn_windows_10_multiple_editions_version_1607_updated_jan_2017_x86_dvd_9714392.iso",
         "文件大小：3.37GB",
@@ -4461,11 +4052,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1607:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1607:4",
+          "rowId": "win10-1607:3",
           "metadataApplied": true
         }
       ],
@@ -4485,7 +4072,7 @@
       "size": "4.71GB",
       "publishedAt": "2017-07-27",
       "sha1": "D1B4BA887936EAEC41D7A4F1ECD836FBA8DD0BF9",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703",
       "attributes": [
         "文件名：cn_windows_10_enterprise_version_1703_updated_july_2017_x64_dvd_10925390.iso",
         "文件大小：4.71GB",
@@ -4502,10 +4089,6 @@
       "provenance": [
         {
           "rowId": "win10-1703:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1703:1",
           "metadataApplied": true
         }
       ],
@@ -4525,7 +4108,7 @@
       "size": "3.53GB",
       "publishedAt": "2017-07-27",
       "sha1": "F715426F60226AC70417875FE4DFA3766D0C1E59",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703",
       "attributes": [
         "文件名：cn_windows_10_enterprise_version_1703_updated_july_2017_x86_dvd_10925421.iso",
         "文件大小：3.53GB",
@@ -4541,11 +4124,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1703:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1703:2",
+          "rowId": "win10-1703:1",
           "metadataApplied": true
         }
       ],
@@ -4565,7 +4144,7 @@
       "size": "5.45GB",
       "publishedAt": "2017-07-27",
       "sha1": "77051E8DEF254447BF91003E581317382D979B7B",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703",
       "attributes": [
         "文件名：cn_windows_10_multiple_editions_version_1703_updated_july_2017_x64_dvd_10925382.iso",
         "文件大小：5.45GB",
@@ -4581,11 +4160,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1703:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1703:3",
+          "rowId": "win10-1703:2",
           "metadataApplied": true
         }
       ],
@@ -4605,7 +4180,7 @@
       "size": "4.11GB",
       "publishedAt": "2017-07-27",
       "sha1": "CB9D41095FFAA29D39928085396632F43F60D4CA",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1703",
       "attributes": [
         "文件名：cn_windows_10_multiple_editions_version_1703_updated_july_2017_x86_dvd_10925372.iso",
         "文件大小：4.11GB",
@@ -4621,11 +4196,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1703:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1703:4",
+          "rowId": "win10-1703:3",
           "metadataApplied": true
         }
       ],
@@ -4645,7 +4216,7 @@
       "size": "4.88GB",
       "publishedAt": "2017-12-19",
       "sha1": "5cc6e158a9d90b9c474ace8a55b66f88bd16221d",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709",
       "attributes": [
         "文件名：cn_windows_10_multi-edition_version_1709_updated_dec_2017_x64_dvd_100406696.iso",
         "文件大小：4.88GB",
@@ -4661,11 +4232,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1709:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1709:3",
+          "rowId": "win10-1709:2",
           "metadataApplied": true
         }
       ],
@@ -4685,7 +4252,7 @@
       "size": "3.78GB",
       "publishedAt": "2017-12-19",
       "sha1": "6f1aaf615a78cb0c01b5a5d9fd3ba148f6dea74b",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709",
       "attributes": [
         "文件名：cn_windows_10_multi-edition_version_1709_updated_dec_2017_x86_dvd_100406742.iso",
         "文件大小：3.78GB",
@@ -4701,11 +4268,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1709:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1709:4",
+          "rowId": "win10-1709:3",
           "metadataApplied": true
         }
       ],
@@ -4725,7 +4288,7 @@
       "size": "4.66GB",
       "publishedAt": "2017-12-19",
       "sha1": "69dc07e7b7940121027be4c9b51648fa31d2b6ad",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709",
       "attributes": [
         "文件名：cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x64_dvd_100406208.iso",
         "文件大小：4.66GB",
@@ -4742,10 +4305,6 @@
       "provenance": [
         {
           "rowId": "win10-1709:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1709:1",
           "metadataApplied": true
         }
       ],
@@ -4765,7 +4324,7 @@
       "size": "3.63GB",
       "publishedAt": "2017-12-19",
       "sha1": "efcf3b81076990951dcfea08ab387e9099813ceb",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1709",
       "attributes": [
         "文件名：cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x86_dvd_100406319.iso",
         "文件大小：3.63GB",
@@ -4781,11 +4340,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1709:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1709:2",
+          "rowId": "win10-1709:1",
           "metadataApplied": true
         }
       ],
@@ -4805,7 +4360,7 @@
       "size": "3.88GB",
       "publishedAt": "2019-03-20",
       "sha1": "5e5f495d74a12cfac48a421d87bce6cd9b03ceff",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803",
       "attributes": [
         "文件名：cn_windows_10_business_edition_version_1803_updated_march_2019_x86_dvd_fc8b74ee.iso",
         "文件大小：3.88GB",
@@ -4821,11 +4376,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1803:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1803:2",
+          "rowId": "win10-1803:1",
           "metadataApplied": true
         }
       ],
@@ -4845,7 +4396,7 @@
       "size": "4.99GB",
       "publishedAt": "2019-09-17",
       "sha1": "02422641f2e9ff5d03158d1deba4f60e0334e598",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_1803_updated_sept_2019_x64_dvd_91248a41.iso",
         "文件大小：4.99GB",
@@ -4862,10 +4413,6 @@
       "provenance": [
         {
           "rowId": "win10-1803:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1803:1",
           "metadataApplied": true
         }
       ],
@@ -4885,7 +4432,7 @@
       "size": "3.88GB",
       "publishedAt": "2019-03-20",
       "sha1": "f24c2389aa3dd34814da2ef471d29094f5bb311a",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803",
       "attributes": [
         "文件名：cn_windows_10_consumer_edition_version_1803_updated_march_2019_x86_dvd_6fdd5a7b.iso",
         "文件大小：3.88GB",
@@ -4901,11 +4448,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1803:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1803:4",
+          "rowId": "win10-1803:3",
           "metadataApplied": true
         }
       ],
@@ -4925,7 +4468,7 @@
       "size": "5.06GB",
       "publishedAt": "2019-09-17",
       "sha1": "3d86bfb2359fb6f58f196fc2146b0cfa9571b357",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1803",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_1803_updated_sept_2019_x64_dvd_56edef2c.iso",
         "文件大小：5.06GB",
@@ -4941,11 +4484,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1803:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1803:3",
+          "rowId": "win10-1803:2",
           "metadataApplied": true
         }
       ],
@@ -4965,7 +4504,7 @@
       "size": "3.57GB",
       "publishedAt": "2019-05-27",
       "sha1": "9a4d2fd78d91211f13a03521a3493175a2ae9a8f",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809",
       "attributes": [
         "文件名：cn_windows_10_business_edition_version_1809_updated_may_2019_x86_dvd_9f17e077.iso",
         "文件大小：3.57GB",
@@ -4981,11 +4520,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1809:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1809:2",
+          "rowId": "win10-1809:1",
           "metadataApplied": true
         }
       ],
@@ -5005,7 +4540,7 @@
       "size": "5.07GB",
       "publishedAt": "2019-09-17",
       "sha1": "975f1b3acbeece56b5ad1526345a0657109f4043",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_1809_updated_sept_2019_x64_dvd_f873d037.iso",
         "文件大小：5.07GB",
@@ -5022,10 +4557,6 @@
       "provenance": [
         {
           "rowId": "win10-1809:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1809:1",
           "metadataApplied": true
         }
       ],
@@ -5045,7 +4576,7 @@
       "size": "3.66GB",
       "publishedAt": "2019-05-27",
       "sha1": "c05463bcc79d9412a30243238f02a9f32a08b4c3",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809",
       "attributes": [
         "文件名：cn_windows_10_consumer_edition_version_1809_updated_may_2019_x86_dvd_42f826ad.iso",
         "文件大小：3.66GB",
@@ -5061,11 +4592,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1809:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1809:4",
+          "rowId": "win10-1809:3",
           "metadataApplied": true
         }
       ],
@@ -5085,7 +4612,7 @@
       "size": "5.19GB",
       "publishedAt": "2019-09-17",
       "sha1": "86bb431c68f38aeecaf925c8c42d130f5e747c02",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1809",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_1809_updated_sept_2019_x64_dvd_ecb7b897.iso",
         "文件大小：5.19GB",
@@ -5101,11 +4628,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1809:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1809:3",
+          "rowId": "win10-1809:2",
           "metadataApplied": true
         }
       ],
@@ -5125,7 +4648,7 @@
       "size": "3.45GB",
       "publishedAt": "2019-07-16",
       "sha1": "0e8b28af6c9a3134e880134c63030768b43f75d6",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_1903_updated_july_2019_x86_dvd_81a0945b.iso",
         "文件大小：3.45GB",
@@ -5141,11 +4664,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1903:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1903:2",
+          "rowId": "win10-1903:1",
           "metadataApplied": true
         }
       ],
@@ -5165,7 +4684,7 @@
       "size": "4.94GB",
       "publishedAt": "2019-11-19",
       "sha1": "b27ee26dd4a486aa290f060c79302ddb71f039c2",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_1903_updated_nov_2019_x64_dvd_59670fa0.iso",
         "文件大小：4.94GB",
@@ -5182,10 +4701,6 @@
       "provenance": [
         {
           "rowId": "win10-1903:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1903:1",
           "metadataApplied": true
         }
       ],
@@ -5205,7 +4720,7 @@
       "size": "3.52GB",
       "publishedAt": "2019-07-16",
       "sha1": "cb13fa78fc8a3036245e3d84a427885e52237a98",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_1903_updated_july_2019_x86_dvd_3995e09a.iso",
         "文件大小：3.52GB",
@@ -5221,11 +4736,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1903:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1903:4",
+          "rowId": "win10-1903:3",
           "metadataApplied": true
         }
       ],
@@ -5245,7 +4756,7 @@
       "size": "5.04GB",
       "publishedAt": "2019-11-19",
       "sha1": "84ceabc065b49a54334da4ed540630fa4a66ad66",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1903",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_1903_updated_nov_2019_x64_dvd_055b3530.iso",
         "文件大小：5.04GB",
@@ -5261,11 +4772,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1903:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1903:3",
+          "rowId": "win10-1903:2",
           "metadataApplied": true
         }
       ],
@@ -5285,7 +4792,7 @@
       "size": "5.05GB",
       "publishedAt": "2020-04-21",
       "sha1": "7E62BA8BC2DCDFB970F5B77965F0D08D6228DA1A",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_1909_updated_april_2020_x64_dvd_5d3fcf2e.iso",
         "文件大小：5.05GB",
@@ -5302,10 +4809,6 @@
       "provenance": [
         {
           "rowId": "win10-1909:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1909:1",
           "metadataApplied": true
         }
       ],
@@ -5325,7 +4828,7 @@
       "size": "3.65GB",
       "publishedAt": "2020-04-21",
       "sha1": "6A93B92793E0875CEC951E2096D97B348B9A5879",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_1909_updated_april_2020_x86_dvd_20841959.iso",
         "文件大小：3.65GB",
@@ -5341,11 +4844,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1909:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1909:2",
+          "rowId": "win10-1909:1",
           "metadataApplied": true
         }
       ],
@@ -5365,7 +4864,7 @@
       "size": "5.16GB",
       "publishedAt": "2020-04-21",
       "sha1": "6CEF4FCCD7556D8F9BB112F636C3ECDBD2F5278C",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_1909_updated_april_2020_x64_dvd_d4f1cee8.iso",
         "文件大小：5.16GB",
@@ -5381,11 +4880,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1909:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1909:3",
+          "rowId": "win10-1909:2",
           "metadataApplied": true
         }
       ],
@@ -5405,7 +4900,7 @@
       "size": "3.65GB",
       "publishedAt": "2020-04-21",
       "sha1": "6A93B92793E0875CEC951E2096D97B348B9A5879",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-1909",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_1909_updated_april_2020_x86_dvd_1a597dcc.iso",
         "文件大小：3.65GB",
@@ -5421,11 +4916,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-1909:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-1909:4",
+          "rowId": "win10-1909:3",
           "metadataApplied": true
         }
       ],
@@ -5445,7 +4936,7 @@
       "size": "4.95GB",
       "publishedAt": "2020-09-15",
       "sha1": "BF0874FFE0FAE1C557E65F49B83B5E83BE7DBF24",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_2004_updated_sep_2020_x64_dvd_7134ba4b.iso",
         "文件大小：4.95GB",
@@ -5462,10 +4953,6 @@
       "provenance": [
         {
           "rowId": "win10-2004:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-2004:1",
           "metadataApplied": true
         }
       ],
@@ -5485,7 +4972,7 @@
       "size": "3.55GB",
       "publishedAt": "2020-09-15",
       "sha1": "3DF30BEE3D105E5B5F70204D3E7402FA61C4D937",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_2004_updated_sep_2020_x86_dvd_31186d54.iso",
         "文件大小：3.55GB",
@@ -5501,11 +4988,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-2004:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-2004:2",
+          "rowId": "win10-2004:1",
           "metadataApplied": true
         }
       ],
@@ -5525,7 +5008,7 @@
       "size": "5.05GB",
       "publishedAt": "2020-09-15",
       "sha1": "B5121926EF2FBBA7F198E30F3D7F293A20A1C144",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_2004_updated_sep_2020_x64_dvd_049d70ee.iso",
         "文件大小：5.05GB",
@@ -5541,11 +5024,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-2004:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-2004:3",
+          "rowId": "win10-2004:2",
           "metadataApplied": true
         }
       ],
@@ -5565,7 +5044,7 @@
       "size": "3.63GB",
       "publishedAt": "2020-09-15",
       "sha1": "FBF3932595AF8ACE99FF9F1DAA353F5F321C4630",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-2004",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_2004_updated_sep_2020_x86_dvd_8a8fe8c0.iso",
         "文件大小：3.63GB",
@@ -5581,11 +5060,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-2004:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-2004:4",
+          "rowId": "win10-2004:3",
           "metadataApplied": true
         }
       ],
@@ -5605,7 +5080,7 @@
       "size": "5.74GB",
       "publishedAt": "2021-04-20",
       "sha1": "DF9154C57636C65EB44DB5F2D520196FEAF55DB8",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_20h2_updated_april_2021_x64_dvd_0a0fc490.iso",
         "文件大小：5.74GB",
@@ -5622,10 +5097,6 @@
       "provenance": [
         {
           "rowId": "win10-20h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-20h2:1",
           "metadataApplied": true
         }
       ],
@@ -5645,7 +5116,7 @@
       "size": "4.23GB",
       "publishedAt": "2021-04-20",
       "sha1": "52F79CEEE2184976478767F6C0E6CDFB60AC0064",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2",
       "attributes": [
         "文件名：cn_windows_10_business_editions_version_20h2_updated_april_2021_x86_dvd_0e94b33c.iso",
         "文件大小：4.23GB",
@@ -5661,11 +5132,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-20h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-20h2:2",
+          "rowId": "win10-20h2:1",
           "metadataApplied": true
         }
       ],
@@ -5685,7 +5152,7 @@
       "size": "5.9GB",
       "publishedAt": "2021-04-20",
       "sha1": "5B0AC1265A339D1F72DB41A21283EB2839642020",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_20h2_updated_april_2021_x64_dvd_ace7e59c.iso",
         "文件大小：5.9GB",
@@ -5701,11 +5168,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-20h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-20h2:3",
+          "rowId": "win10-20h2:2",
           "metadataApplied": true
         }
       ],
@@ -5725,7 +5188,7 @@
       "size": "4.32GB",
       "publishedAt": "2021-04-20",
       "sha1": "8210466DCBF591A63E7928779DEF08E17A362CD8",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-20h2",
       "attributes": [
         "文件名：cn_windows_10_consumer_editions_version_20h2_updated_april_2021_x86_dvd_f483b6ca.iso",
         "文件大小：4.32GB",
@@ -5741,11 +5204,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-20h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-20h2:4",
+          "rowId": "win10-20h2:3",
           "metadataApplied": true
         }
       ],
@@ -5765,7 +5224,7 @@
       "size": "5.32GB",
       "publishedAt": "2021-09-21",
       "sha1": "3A656F7209547468FBB5B794D78F216C7603E16C",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1",
       "attributes": [
         "文件名：zh-cn_windows_10_business_editions_version_21h1_updated_sep_2021_x64_dvd_023d42d3.iso",
         "文件大小：5.32GB",
@@ -5782,10 +5241,6 @@
       "provenance": [
         {
           "rowId": "win10-21h1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h1:1",
           "metadataApplied": true
         }
       ],
@@ -5805,7 +5260,7 @@
       "size": "3.86GB",
       "publishedAt": "2021-09-21",
       "sha1": "4DBD9B92E185D3A07EB802FEE2FB42FBCE707A0A",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1",
       "attributes": [
         "文件名：zh-cn_windows_10_business_editions_version_21h1_updated_sep_2021_x86_dvd_3a0314c9.iso",
         "文件大小：3.86GB",
@@ -5821,11 +5276,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-21h1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h1:2",
+          "rowId": "win10-21h1:1",
           "metadataApplied": true
         }
       ],
@@ -5845,7 +5296,7 @@
       "size": "5.42GB",
       "publishedAt": "2021-09-21",
       "sha1": "38497D3F479F6A31775E55256D02D224D2BC9F30",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1",
       "attributes": [
         "文件名：zh-cn_windows_10_consumer_editions_version_21h1_updated_sep_2021_x64_dvd_991b822f.iso",
         "文件大小：5.42GB",
@@ -5861,11 +5312,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-21h1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h1:3",
+          "rowId": "win10-21h1:2",
           "metadataApplied": true
         }
       ],
@@ -5885,7 +5332,7 @@
       "size": "3.93GB",
       "publishedAt": "2021-09-21",
       "sha1": "13F7FAA8C3C56CC2D57A150AD548619229142E68",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h1",
       "attributes": [
         "文件名：zh-cn_windows_10_consumer_editions_version_21h1_updated_sep_2021_x86_dvd_b64c8b01.iso",
         "文件大小：3.93GB",
@@ -5901,11 +5348,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-21h1:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h1:4",
+          "rowId": "win10-21h1:3",
           "metadataApplied": true
         }
       ],
@@ -5925,7 +5368,7 @@
       "size": "5.48GB",
       "publishedAt": "2022-06-21",
       "sha1": "023CD1DD6831F60C8F5A478E82A214BDE55CABBB",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2",
       "attributes": [
         "文件名：zh-cn_windows_10_business_editions_version_21h2_updated_june_2022_x64_dvd_93f8d9f6.iso",
         "文件大小：5.48GB",
@@ -5947,10 +5390,6 @@
       "provenance": [
         {
           "rowId": "win10-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h2:1",
           "metadataApplied": true
         }
       ],
@@ -5970,7 +5409,7 @@
       "size": "3.93GB",
       "publishedAt": "2022-06-21",
       "sha1": "8DED0425E505FA104C0CE469585749A7288452CF",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2",
       "attributes": [
         "文件名：zh-cn_windows_10_business_editions_version_21h2_updated_june_2022_x86_dvd_de305856.iso",
         "文件大小：3.93GB",
@@ -5991,11 +5430,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h2:2",
+          "rowId": "win10-21h2:1",
           "metadataApplied": true
         }
       ],
@@ -6015,7 +5450,7 @@
       "size": "5.59GB",
       "publishedAt": "2022-06-21",
       "sha1": "38B8F559D3846605176766C9F0BE409B8DCA94DC",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2",
       "attributes": [
         "文件名：zh-cn_windows_10_consumer_editions_version_21h2_updated_june_2022_x64_dvd_469593c1.iso",
         "文件大小：5.59GB",
@@ -6036,11 +5471,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h2:3",
+          "rowId": "win10-21h2:2",
           "metadataApplied": true
         }
       ],
@@ -6060,7 +5491,7 @@
       "size": "4.01GB",
       "publishedAt": "2022-04-19",
       "sha1": "F726A46837527762488B3309F5B89F017CC38278",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-21h2",
       "attributes": [
         "文件名：zh-cn_windows_10_consumer_editions_version_21h2_updated_june_2022_x86_dvd_2106cf02.iso",
         "文件大小：4.01GB",
@@ -6081,11 +5512,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-21h2:4",
+          "rowId": "win10-21h2:3",
           "metadataApplied": true
         }
       ],
@@ -6127,10 +5554,6 @@
       "provenance": [
         {
           "rowId": "win10-22h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-22h2:1",
           "metadataApplied": true
         }
       ],
@@ -6171,11 +5594,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-22h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-22h2:2",
+          "rowId": "win10-22h2:1",
           "metadataApplied": true
         }
       ],
@@ -6216,11 +5635,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-22h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-22h2:3",
+          "rowId": "win10-22h2:2",
           "metadataApplied": true
         }
       ],
@@ -6261,11 +5676,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-22h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-22h2:4",
+          "rowId": "win10-22h2:3",
           "metadataApplied": true
         }
       ],
@@ -6285,7 +5696,7 @@
       "size": "3.56GB",
       "publishedAt": "2016-08-11",
       "sha1": "9e405e950890d2a196565bca35e152f9cfad296d",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "attributes": [
         "文件名：cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso",
         "文件大小：3.56GB",
@@ -6306,11 +5717,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-ltsc:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-ltsc:5",
+          "rowId": "win10-ltsc:4",
           "metadataApplied": true
         }
       ],
@@ -6330,7 +5737,7 @@
       "size": "2.62GB",
       "publishedAt": "2016-08-11",
       "sha1": "0422052f25c9c8df983f3b287f725860aab907cf",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "attributes": [
         "文件名：cn_windows_10_enterprise_2016_ltsb_x86_dvd_9057089.iso",
         "文件大小：2.62GB",
@@ -6351,11 +5758,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-ltsc:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-ltsc:6",
+          "rowId": "win10-ltsc:5",
           "metadataApplied": true
         }
       ],
@@ -6375,7 +5778,7 @@
       "size": "4.17GB",
       "publishedAt": "2019-03-15",
       "sha1": "24b59706d5eded392423936c82ba5a83596b50cc",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "attributes": [
         "文件名：cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso",
         "文件大小：4.17GB",
@@ -6396,11 +5799,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-ltsc:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-ltsc:3",
+          "rowId": "win10-ltsc:2",
           "metadataApplied": true
         }
       ],
@@ -6420,7 +5819,7 @@
       "size": "2.98GB",
       "publishedAt": "2019-03-15",
       "sha1": "ba2169edd94f123211cd4aaca68352f1ab6195d9",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "attributes": [
         "文件名：cn_windows_10_enterprise_ltsc_2019_x86_dvd_1814dbab.iso",
         "文件大小：2.98GB",
@@ -6441,11 +5840,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-ltsc:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-ltsc:4",
+          "rowId": "win10-ltsc:3",
           "metadataApplied": true
         }
       ],
@@ -6465,7 +5860,7 @@
       "size": "3.37GB",
       "publishedAt": "2021-11-17",
       "sha1": "50ED6860535FDDF9D0418EFD99EF7F40DAA696F5",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "attributes": [
         "文件名：SW_DVD9_WIN_ENT_LTSC_2021_32BIT_ChnSimp_MLF_X22-84401.ISO",
         "文件大小：3.37GB",
@@ -6487,11 +5882,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win10-ltsc:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-ltsc:2",
+          "rowId": "win10-ltsc:1",
           "metadataApplied": true
         }
       ],
@@ -6511,7 +5902,7 @@
       "size": "4.70GB",
       "publishedAt": "2021-11-17",
       "sha1": "C19D7DAFBAFEB26C36E31D97C465E87C7A6E8A4C",
-      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc/",
+      "sourceUrl": "https://www.imsdn.cn/windows-10/win10-ltsc",
       "attributes": [
         "文件名：SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO",
         "文件大小：4.70GB",
@@ -6534,10 +5925,6 @@
       "provenance": [
         {
           "rowId": "win10-ltsc:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win10-ltsc:1",
           "metadataApplied": true
         }
       ],
@@ -6576,10 +5963,6 @@
         {
           "rowId": "win11-21h2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "win11-21h2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -6615,11 +5998,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-21h2:3",
+          "rowId": "win11-21h2:2",
           "metadataApplied": true
         }
       ],
@@ -6656,11 +6035,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-21h2:2",
+          "rowId": "win11-21h2:1",
           "metadataApplied": true
         }
       ],
@@ -6697,11 +6072,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-21h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-21h2:4",
+          "rowId": "win11-21h2:3",
           "metadataApplied": true
         }
       ],
@@ -6740,10 +6111,6 @@
         {
           "rowId": "win11-22h2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "win11-22h2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -6779,11 +6146,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-22h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-22h2:2",
+          "rowId": "win11-22h2:1",
           "metadataApplied": true
         }
       ],
@@ -6827,10 +6190,6 @@
         {
           "rowId": "win11-23h2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "win11-23h2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -6871,11 +6230,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-23h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-23h2:3",
+          "rowId": "win11-23h2:2",
           "metadataApplied": true
         }
       ],
@@ -6911,11 +6266,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-23h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-23h2:2",
+          "rowId": "win11-23h2:1",
           "metadataApplied": false
         }
       ],
@@ -6957,11 +6308,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-23h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-23h2:4",
+          "rowId": "win11-23h2:3",
           "metadataApplied": true
         }
       ],
@@ -7005,10 +6352,6 @@
         {
           "rowId": "win11-24h2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "win11-24h2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -7049,11 +6392,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-24h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-24h2:3",
+          "rowId": "win11-24h2:2",
           "metadataApplied": true
         }
       ],
@@ -7095,11 +6434,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-24h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-24h2:2",
+          "rowId": "win11-24h2:1",
           "metadataApplied": true
         }
       ],
@@ -7141,11 +6476,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-24h2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-24h2:4",
+          "rowId": "win11-24h2:3",
           "metadataApplied": true
         }
       ],
@@ -7186,11 +6517,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-arm:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-arm:4",
+          "rowId": "win11-arm:3",
           "metadataApplied": true
         }
       ],
@@ -7226,11 +6553,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-arm:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-arm:3",
+          "rowId": "win11-arm:2",
           "metadataApplied": true
         }
       ],
@@ -7266,11 +6589,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-arm:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-arm:2",
+          "rowId": "win11-arm:1",
           "metadataApplied": true
         }
       ],
@@ -7307,10 +6626,6 @@
       "provenance": [
         {
           "rowId": "win11-arm:0",
-          "metadataApplied": true
-        },
-        {
-          "rowId": "win11-arm:1",
           "metadataApplied": true
         }
       ],
@@ -7354,10 +6669,6 @@
         {
           "rowId": "win11-ltsc:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "win11-ltsc:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -7400,14 +6711,6 @@
         {
           "rowId": "win11-rtm:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "win11-rtm:1",
-          "metadataApplied": true
-        },
-        {
-          "rowId": "win11-rtm:0",
-          "metadataApplied": false
         }
       ],
       "metadataStatus": "source-reported",
@@ -7448,11 +6751,7 @@
       ],
       "provenance": [
         {
-          "rowId": "win11-rtm:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "win11-rtm:2",
+          "rowId": "win11-rtm:1",
           "metadataApplied": true
         }
       ],
@@ -7490,10 +6789,6 @@
         {
           "rowId": "windows-server-2008:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2008:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -7528,11 +6823,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008:2",
+          "rowId": "windows-server-2008:1",
           "metadataApplied": true
         }
       ],
@@ -7568,11 +6859,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008:3",
+          "rowId": "windows-server-2008:2",
           "metadataApplied": true
         }
       ],
@@ -7608,11 +6895,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008:4",
+          "rowId": "windows-server-2008:3",
           "metadataApplied": true
         }
       ],
@@ -7648,11 +6931,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008:5",
+          "rowId": "windows-server-2008:4",
           "metadataApplied": true
         }
       ],
@@ -7688,11 +6967,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008:6",
+          "rowId": "windows-server-2008:5",
           "metadataApplied": true
         }
       ],
@@ -7728,11 +7003,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008-r2:2",
+          "rowId": "windows-server-2008-r2:1",
           "metadataApplied": true
         }
       ],
@@ -7770,10 +7041,6 @@
         {
           "rowId": "windows-server-2008-r2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2008-r2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -7808,11 +7075,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008-r2:4",
+          "rowId": "windows-server-2008-r2:3",
           "metadataApplied": true
         }
       ],
@@ -7848,11 +7111,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008-r2:3",
+          "rowId": "windows-server-2008-r2:2",
           "metadataApplied": true
         }
       ],
@@ -7888,11 +7147,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008-r2:6",
+          "rowId": "windows-server-2008-r2:5",
           "metadataApplied": true
         }
       ],
@@ -7928,11 +7183,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2008-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2008-r2:5",
+          "rowId": "windows-server-2008-r2:4",
           "metadataApplied": true
         }
       ],
@@ -7968,11 +7219,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012:2",
+          "rowId": "windows-server-2012:1",
           "metadataApplied": true
         }
       ],
@@ -8010,10 +7257,6 @@
         {
           "rowId": "windows-server-2012:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2012:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -8048,11 +7291,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012:4",
+          "rowId": "windows-server-2012:3",
           "metadataApplied": true
         }
       ],
@@ -8088,11 +7327,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012:3",
+          "rowId": "windows-server-2012:2",
           "metadataApplied": true
         }
       ],
@@ -8128,11 +7363,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012:5",
+          "rowId": "windows-server-2012:4",
           "metadataApplied": true
         }
       ],
@@ -8168,11 +7399,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012-r2:2",
+          "rowId": "windows-server-2012-r2:1",
           "metadataApplied": true
         }
       ],
@@ -8210,10 +7437,6 @@
         {
           "rowId": "windows-server-2012-r2:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2012-r2:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -8248,11 +7471,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012-r2:4",
+          "rowId": "windows-server-2012-r2:3",
           "metadataApplied": true
         }
       ],
@@ -8288,11 +7507,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012-r2:3",
+          "rowId": "windows-server-2012-r2:2",
           "metadataApplied": true
         }
       ],
@@ -8328,11 +7543,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2012-r2:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2012-r2:5",
+          "rowId": "windows-server-2012-r2:4",
           "metadataApplied": true
         }
       ],
@@ -8368,11 +7579,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2016:5",
+          "rowId": "windows-server-2016:4",
           "metadataApplied": true
         }
       ],
@@ -8408,11 +7615,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2016:3",
+          "rowId": "windows-server-2016:2",
           "metadataApplied": true
         }
       ],
@@ -8448,11 +7651,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2016:2",
+          "rowId": "windows-server-2016:1",
           "metadataApplied": true
         }
       ],
@@ -8490,10 +7689,6 @@
         {
           "rowId": "windows-server-2016:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2016:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -8528,11 +7723,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2016:4",
+          "rowId": "windows-server-2016:3",
           "metadataApplied": true
         }
       ],
@@ -8568,11 +7759,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2016:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2016:6",
+          "rowId": "windows-server-2016:5",
           "metadataApplied": true
         }
       ],
@@ -8608,11 +7795,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2019:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2019:2",
+          "rowId": "windows-server-2019:1",
           "metadataApplied": true
         }
       ],
@@ -8650,10 +7833,6 @@
         {
           "rowId": "windows-server-2019:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2019:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -8688,11 +7867,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2019:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2019:3",
+          "rowId": "windows-server-2019:2",
           "metadataApplied": true
         }
       ],
@@ -8728,11 +7903,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2019:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2019:4",
+          "rowId": "windows-server-2019:3",
           "metadataApplied": true
         }
       ],
@@ -8770,10 +7941,6 @@
         {
           "rowId": "windows-server-2022:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2022:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -8808,10 +7975,6 @@
         {
           "rowId": "windows-server-2025:0",
           "metadataApplied": true
-        },
-        {
-          "rowId": "windows-server-2025:1",
-          "metadataApplied": true
         }
       ],
       "metadataStatus": "source-reported",
@@ -8844,11 +8007,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2025:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2025:3",
+          "rowId": "windows-server-2025:2",
           "metadataApplied": true
         }
       ],
@@ -8882,11 +8041,7 @@
       ],
       "provenance": [
         {
-          "rowId": "windows-server-2025:0",
-          "metadataApplied": false
-        },
-        {
-          "rowId": "windows-server-2025:2",
+          "rowId": "windows-server-2025:1",
           "metadataApplied": true
         }
       ],
