@@ -1,0 +1,12 @@
+{
+  "name": "windows-resource-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A source-transparent Microsoft resource catalog with cascading filters.",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "test": "node --test tests/*.test.js",
+    "test:data": "python3 -m unittest discover -s tests -p 'data*.py'"
+  }
+}
