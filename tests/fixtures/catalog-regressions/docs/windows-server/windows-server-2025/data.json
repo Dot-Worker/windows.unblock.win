@@ -1,0 +1,66 @@
+{
+  "title": "Windows Server 2025",
+  "url": "https://www.imsdn.cn/windows-server/windows-server-2025",
+  "versions": [
+    {
+      "version_text": "Windows Server 2025 标准版、数据中心版多合一 简体中文",
+      "attributes": [
+        "文件名：X23-81954_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-cn.iso",
+        "发布时间：2024-11-1"
+      ],
+      "downloads": [
+        {
+          "download_url": "https://oemsoc.download.prss.microsoft.com/dbazure/X23-81954_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-cn.iso_c0a03233-3c87-4c90-9fac-9cbf668255c1?t=fdfcc05d-ef3b-45a4-8f87-cd492f6d10de&P1=102817441905&P2=601&P3=2&P4=phtRoTOxQBx%2bH5nhSijWBQw9deo3wwkODOj9HbwaH1%2fC%2bYTg5C7FrUUduOXIC9TzweFPlCY0YlpXM1ZD%2fj3dYrYwBbRnCeeDOvzHTjIMoZvtjfKHH%2bfI3IdPFJBa6gv5sL69QQFUUmaWqRHCTT81p6IYcNwuwOUrNW9u3BVttXiQNIAX9XrrYbWAHHmfkLW3wR2YdstEsFxF8sIQ4w1V6Znm3B7NO7Rv%2fjk3nyhQ9zzMjZFjdIlkZg4NbAhYE12EZr9pHHR0AHQeW2%2fN%2fVhGjoaYWYjHMTtfNV48EJbeQoQKrrfdLTQ%2fHk6%2bGUxO5D8xCPfkr0vpr7oBo2uICepJ3w%3d%3d",
+          "download_type": "微软网站高速下载，完成后请修改文件名后缀为\".iso\"："
+        },
+        {
+          "download_url": "https://oemsoc.download.prss.microsoft.com/dbazure/X23-81958_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_en-us.iso_909fa35d-ba98-407d-9fef-8df76f75e133?t=34b8db0f-439b-497c-86ce-ec7ceb898bb7&P1=102816956391&P2=601&P3=2&P4=pG1WoVpBKlyWcmfj%2bt1gYgkTsP4At28ch8mG7vIQm%2fT4elz5v2ZQ3eKAN8%2fFjb1yaa4npBaABURtnI8YmrDv8p0VJmYpLCIUQ0FHEFR4IFiPgtvzwAAI8oNdiEl%2b2uM7MN8Gaju8BvIVgHRl%2fRxq0HFgrFoEGmvHZU4jY0RFsYAaHliUinDUzdVfT0IPwyWqNUJXZTSfguyphv8XZx8OQsBy3zwBp7tNHsKl36ZO2JdZK%2fyPY7QTpAr5ccazUPEa40ALhYRBJXxlQb1F0OeO7kHhW7DKK5D4Wpt5WbpjFn8MqcZBX3%2fQI6WAwzDSKIck7jYL7bYdl2ufoMRrFZrxxw%3d%3d",
+          "download_type": "下载后请修改文件名后缀为\".iso\"："
+        },
+        {
+          "download_url": "https://oemsoc.download.prss.microsoft.com/dbazure/X23-81955_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-tw.iso_731ec99c-0ae2-483c-afed-710e3a0750b3?t=c3b71371-8723-4813-a386-bc318bceeb76&P1=102817441907&P2=601&P3=2&P4=KuAEtUuMYLfQx87GAmqpib39D%2btSY5MZeQGwPC05VTmqP%2fsfU7dXKrzBMpuHixmU91%2f1lO%2flfwhkPa9xnm24%2fDP4GyTrKqe3XP44IvPDS%2b4zfL%2fy%2fJhFxnlY8xnXOp%2f8aCQxgJcREil%2f8AlGPnX0%2fe3H12UIqMg84a97IESvHBBarYIvtHl3itix8vlEqC%2fq60EVzQh2jSgr9zBejd2homnuYbgMpgv1LZkN7NDG6zL1%2f8hvnENJ%2bkpK9OZmXNC7e49yJigT%2ffBnnPtTqlDv7qzVEAplS1vc522GMjqJdf4%2bueXjcsZohDHHzparCp5Nxy4kTStUDRL3LqPT5LEcKw%3d%3d",
+          "download_type": "下载后请修改文件名后缀为\".iso\"："
+        }
+      ]
+    },
+    {
+      "version_text": "Windows Server 2025 标准版、数据中心版多合一 简体中文",
+      "attributes": [
+        "文件名：X23-81954_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-cn.iso",
+        "发布时间：2024-11-1"
+      ],
+      "downloads": [
+        {
+          "download_url": "https://oemsoc.download.prss.microsoft.com/dbazure/X23-81954_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-cn.iso_c0a03233-3c87-4c90-9fac-9cbf668255c1?t=fdfcc05d-ef3b-45a4-8f87-cd492f6d10de&P1=102817441905&P2=601&P3=2&P4=phtRoTOxQBx%2bH5nhSijWBQw9deo3wwkODOj9HbwaH1%2fC%2bYTg5C7FrUUduOXIC9TzweFPlCY0YlpXM1ZD%2fj3dYrYwBbRnCeeDOvzHTjIMoZvtjfKHH%2bfI3IdPFJBa6gv5sL69QQFUUmaWqRHCTT81p6IYcNwuwOUrNW9u3BVttXiQNIAX9XrrYbWAHHmfkLW3wR2YdstEsFxF8sIQ4w1V6Znm3B7NO7Rv%2fjk3nyhQ9zzMjZFjdIlkZg4NbAhYE12EZr9pHHR0AHQeW2%2fN%2fVhGjoaYWYjHMTtfNV48EJbeQoQKrrfdLTQ%2fHk6%2bGUxO5D8xCPfkr0vpr7oBo2uICepJ3w%3d%3d",
+          "download_type": "微软网站高速下载，完成后请修改文件名后缀为\".iso\"："
+        }
+      ]
+    },
+    {
+      "version_text": "Windows Server 2025 标准版、数据中心版多合一 英文版",
+      "attributes": [
+        "文件名：X23-81958_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_en-us.iso",
+        "发布时间：2024-11-1"
+      ],
+      "downloads": [
+        {
+          "download_url": "https://oemsoc.download.prss.microsoft.com/dbazure/X23-81958_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_en-us.iso_909fa35d-ba98-407d-9fef-8df76f75e133?t=34b8db0f-439b-497c-86ce-ec7ceb898bb7&P1=102816956391&P2=601&P3=2&P4=pG1WoVpBKlyWcmfj%2bt1gYgkTsP4At28ch8mG7vIQm%2fT4elz5v2ZQ3eKAN8%2fFjb1yaa4npBaABURtnI8YmrDv8p0VJmYpLCIUQ0FHEFR4IFiPgtvzwAAI8oNdiEl%2b2uM7MN8Gaju8BvIVgHRl%2fRxq0HFgrFoEGmvHZU4jY0RFsYAaHliUinDUzdVfT0IPwyWqNUJXZTSfguyphv8XZx8OQsBy3zwBp7tNHsKl36ZO2JdZK%2fyPY7QTpAr5ccazUPEa40ALhYRBJXxlQb1F0OeO7kHhW7DKK5D4Wpt5WbpjFn8MqcZBX3%2fQI6WAwzDSKIck7jYL7bYdl2ufoMRrFZrxxw%3d%3d",
+          "download_type": "下载后请修改文件名后缀为\".iso\"："
+        }
+      ]
+    },
+    {
+      "version_text": "Windows Server 2025 标准版、数据中心版多合一 繁体中文",
+      "attributes": [
+        "文件名：X23-81955_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-tw.iso",
+        "发布时间：2024-11-1"
+      ],
+      "downloads": [
+        {
+          "download_url": "https://oemsoc.download.prss.microsoft.com/dbazure/X23-81955_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_zh-tw.iso_731ec99c-0ae2-483c-afed-710e3a0750b3?t=c3b71371-8723-4813-a386-bc318bceeb76&P1=102817441907&P2=601&P3=2&P4=KuAEtUuMYLfQx87GAmqpib39D%2btSY5MZeQGwPC05VTmqP%2fsfU7dXKrzBMpuHixmU91%2f1lO%2flfwhkPa9xnm24%2fDP4GyTrKqe3XP44IvPDS%2b4zfL%2fy%2fJhFxnlY8xnXOp%2f8aCQxgJcREil%2f8AlGPnX0%2fe3H12UIqMg84a97IESvHBBarYIvtHl3itix8vlEqC%2fq60EVzQh2jSgr9zBejd2homnuYbgMpgv1LZkN7NDG6zL1%2f8hvnENJ%2bkpK9OZmXNC7e49yJigT%2ffBnnPtTqlDv7qzVEAplS1vc522GMjqJdf4%2bueXjcsZohDHHzparCp5Nxy4kTStUDRL3LqPT5LEcKw%3d%3d",
+          "download_type": "下载后请修改文件名后缀为\".iso\"："
+        }
+      ]
+    }
+  ]
+}

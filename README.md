@@ -14,8 +14,8 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 ## 数据与边界
 
-- 数据来源：[wangzhenjjcn/Microsoft_Resources](https://github.com/wangzhenjjcn/Microsoft_Resources)，读取其已发布的 `docs/**/data.json`，不运行原抓取程序。
-- 本版本使用源提交 `f69e23f8bf478004d45abd56757674155b1ece0a`（2025-10-09）。导入时间不等于资源更新日期，也不代表数据最新。
+- 历史导入参考：[wangzhenjjcn/Microsoft_Resources](https://github.com/wangzhenjjcn/Microsoft_Resources)。自动更新直接采集公开来源站 `https://www.imsdn.cn` 的实时 HTML，不依赖旧仓库 JSON，也不运行原抓取程序。
+- 初始快照来自源提交 `f69e23f8bf478004d45abd56757674155b1ece0a`（2025-10-09）。首次成功的实时采集会迁移为 `live-html` 来源，之后按实际来源变化更新。最近成功采集时间、数据变化时间、软件发布日期分别展示，不把“抓取成功”说成“微软发布了新版本”。
 - 原始数据存在重复条目和跨文件混合下载组。导入器尽量按文件身份归并，保留出处，不把一个文件的属性套用到另一个文件。
 - 未知信息显示未知；没有校验值不生成校验值。文件名推断的语言、架构不等于实测确认。
 - 下载链接、文件完整性、许可与安全性未经本项目逐一验证。来源站点不是 Microsoft 官方网站，不能把整个目录称为“微软官方认证资源”。
@@ -26,7 +26,13 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 整个仓库可作为静态目录部署；所有前端资源使用相对路径，支持 GitHub Pages 项目路径。仓库提交本身不等于网站上线。
 
-GitHub Pages 测试域名为 `msdn.unblock.win`，使用主分支根目录作为发布源。`CNAME` 仅包含此测试域名；DNS 由域名所有者维护。不改动旧站 `windows.unblock.win`，也不自动开启定时抓取任务。实际部署与 HTTPS 状态以仓库 Pages 页面和验收记录为准。
+GitHub Pages 测试域名为 `msdn.unblock.win`，自动更新工作流使用 GitHub Actions 构建并部署静态产物。`CNAME` 仅包含此测试域名；DNS 由域名所有者维护。不改动旧站 `windows.unblock.win`。实际部署与 HTTPS 状态以仓库 Pages 页面和验收记录为准。
+
+## Actions 自动更新
+
+工作流 `Update live catalog and deploy` 支持每日北京时间 06:06、手动运行和维护者推送 main 触发。每次重新发现产品并完整采集，再校验、构建指纹资源、提交限定文件、在同一工作流部署 Pages；不会依赖机器人提交再次触发部署。
+
+来源不完整或采集失败时保留最后有效目录，记录失败状态，并让整个工作流报错。来源没有变化时保留目录内容和数据变化时间，只更新真实检查记录。更多边界、权限与验证方式见 [自动更新说明](docs/UPDATES.md)。定时任务可能延迟或被平台停用，应以实际运行和站点状态为准。
 
 ## 修改与构建
 

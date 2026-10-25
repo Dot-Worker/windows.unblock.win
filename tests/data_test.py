@@ -1,6 +1,7 @@
 """Run with: python -m unittest discover -s tests -p 'data*.py'"""
 import importlib.util
 import json
+from datetime import date, datetime
 from pathlib import Path
 import tempfile
 import unittest
@@ -15,16 +16,36 @@ class CatalogTests(unittest.TestCase):
     def setUpClass(cls):
         cls.catalog=json.loads((ROOT/'data/catalog.json').read_text())
         cls.provenance=json.loads((ROOT/'data/provenance.json').read_text())
+        cls.regressions=module.build(ROOT/'tests/fixtures/catalog-regressions',
+                                     'https://example.com/frozen-regression-source')[0]
 
     def test_counts_ids_and_families(self):
         c=self.catalog
-        self.assertEqual(len(c['products']),46)
-        self.assertEqual(c['meta']['sourceSnapshotDate'],'2025-10-09')
+        self.assertGreater(len(c['products']),0)
+        self.assertGreater(len(c['resources']),0)
+        self.assertEqual(c['meta']['productCount'],len(c['products']))
+        self.assertEqual(c['meta']['schemaVersion'],1)
+        self.assertEqual(c['meta'],self.provenance['meta'])
+        self.assertEqual(c['meta']['sourceRowCount'],len(self.provenance['rows']))
+        self.assertEqual(c['meta']['sourceDownloadOccurrences'],
+                         sum(len(row['downloads']) for row in self.provenance['rows']))
+        self.assertEqual(c['meta']['downloadCount'],
+                         sum(len(r['downloads']) for r in c['resources']))
+        datetime.fromisoformat(c['meta']['importedAt'].replace('Z','+00:00'))
+        if c['meta'].get('sourceSnapshotDate') is not None:
+            date.fromisoformat(c['meta']['sourceSnapshotDate'])
         self.assertEqual(c['meta']['resourceCount'],len(c['resources']))
         self.assertEqual(len({r['id'] for r in c['resources']}),len(c['resources']))
-        self.assertEqual({r['family'] for r in c['resources']},{'Windows 11','Windows 10','Windows','Windows Server','Office','SQL Server'})
-        ids={p['id'] for p in c['products']}
-        self.assertTrue(all(r['productId'] in ids for r in c['resources']))
+        expected_families={'Windows 11','Windows 10','Windows','Windows Server','Office','SQL Server'}
+        self.assertTrue(expected_families.issubset({r['family'] for r in c['resources']}))
+        products={p['id']:p for p in c['products']}
+        self.assertEqual(len(products),len(c['products']))
+        self.assertEqual(len({row['id'] for row in self.provenance['rows']}),len(self.provenance['rows']))
+        for r in c['resources']:
+            self.assertIn(r['productId'],products)
+            self.assertEqual(r['family'],products[r['productId']]['family'])
+            self.assertTrue(r['downloads'])
+            self.assertTrue(r['provenance'])
 
     def test_every_source_url_preserved_without_duplicate_downloads(self):
         expected={d['download_url'].strip() for row in self.provenance['rows'] for d in row['downloads']}
@@ -37,6 +58,13 @@ class CatalogTests(unittest.TestCase):
         rows={row['id']:row for row in self.provenance['rows']}
         for r in self.catalog['resources']:
             self.assertTrue(all(p['rowId'] in rows for p in r['provenance']))
+            evidence=[rows[p['rowId']] for p in r['provenance']]
+            evidenced_urls={d['download_url'].strip() for row in evidence for d in row['downloads']}
+            self.assertTrue({d['url'] for d in r['downloads']}.issubset(evidenced_urls))
+            self.assertTrue(all(row['path']==next(product['sourcePath'] for product in self.catalog['products']
+                                                if product['id']==r['productId']) for row in evidence))
+            if r['metadataStatus']=='source-reported':
+                self.assertTrue(any(p['metadataApplied'] for p in r['provenance']))
             if r['sha1']:
                 self.assertRegex(r['sha1'],r'^[0-9a-fA-F]{40}$')
                 self.assertEqual(r['hashStatus'],'unverified')
@@ -47,7 +75,7 @@ class CatalogTests(unittest.TestCase):
 
     def test_office_locales_not_merged_by_generic_filename(self):
         for product in ('office-2021','office-2024'):
-            rows=[r for r in self.catalog['resources'] if r['productId']==product]
+            rows=[r for r in self.regressions['resources'] if r['productId']==product]
             self.assertEqual(len(rows),9)
             self.assertEqual({r['language'] for r in rows},{'Simplified Chinese','Traditional Chinese','English'})
             self.assertTrue(all(r['publishedAt'] is None for r in rows))
@@ -57,13 +85,13 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(module.classify_arch('file.iso'),'Unknown')
         self.assertEqual(module.classify_language('mu_windows_language_pack.iso'),'Multilingual')
         self.assertEqual(module.classify_language('file.iso'),'Unknown')
-        bad=[r for r in self.catalog['resources'] if r['productId']=='windows-7' and r['filename'] and 'enterprise' in r['filename'] and 'x64' in r['filename']]
+        bad=[r for r in self.regressions['resources'] if r['productId']=='windows-7' and r['filename'] and 'enterprise' in r['filename'] and 'x64' in r['filename']]
         self.assertEqual(len(bad),1)
         self.assertIsNone(bad[0]['sha1'])
         self.assertEqual(bad[0]['architecture'],'x64')
 
     def test_server_2025_metadata_does_not_cross_locales(self):
-        rows=[r for r in self.catalog['resources'] if r['productId']=='windows-server-2025']
+        rows=[r for r in self.regressions['resources'] if r['productId']=='windows-server-2025']
         self.assertEqual(len(rows),3)
         self.assertEqual({r['language'] for r in rows},{'Simplified Chinese','Traditional Chinese','English'})
         for r in rows:
@@ -91,7 +119,7 @@ class CatalogTests(unittest.TestCase):
             self.assertEqual({r['language'] for r in resources},{'Simplified Chinese','English'})
 
     def test_windows_11_64arm_filenames_are_arm64(self):
-        arm_rows=[r for r in self.catalog['resources'] if r['filename'] and '64arm' in r['filename'].lower()]
+        arm_rows=[r for r in self.regressions['resources'] if r['filename'] and '64arm' in r['filename'].lower()]
         self.assertGreaterEqual(len(arm_rows),2)
         self.assertTrue(any('21H2' in r['filename'] for r in arm_rows))
         self.assertTrue(any('22H2' in r['filename'] for r in arm_rows))
