@@ -1,8 +1,10 @@
-# Resource snapshot and normalization
+# Resource normalization and historical bootstrap
 
-## Attribution and scope
+Current data origin and freshness are defined by `catalog.json` metadata and `update-status.json`. After the first successful Actions collection, `sourceMode: live-html` identifies fresh HTML collection from www.imsdn.cn; the old GitHub revision is cleared. The bootstrap description below is historical, not a claim that live updates still read the old snapshot. See [live update workflow](../docs/UPDATES.md).
 
-Data imported from [wangzhenjjcn/Microsoft_Resources](https://github.com/wangzhenjjcn/Microsoft_Resources), revision `f69e23f8bf478004d45abd56757674155b1ece0a`. The upstream snapshot contains 46 `docs/**/data.json` files and identifies individual page sources on `imsdn.cn`. This is an archival third-party listing, not an official Microsoft catalog. The revision's commit date is 2025-10-09; the explicit import timestamp is 2026-10-25T18:54:00Z. Import time is not resource freshness or last verification time.
+## Initial bootstrap attribution and scope
+
+Initial bootstrap data was imported from [wangzhenjjcn/Microsoft_Resources](https://github.com/wangzhenjjcn/Microsoft_Resources), revision `f69e23f8bf478004d45abd56757674155b1ece0a`. The upstream snapshot contains 46 `docs/**/data.json` files and identifies individual page sources on `imsdn.cn`. This is an archival third-party listing, not an official Microsoft catalog. The revision's commit date is 2025-10-09; the explicit import timestamp is 2026-10-25T18:54:00Z. Import time is not resource freshness or last verification time.
 
 The upstream README claims MIT, but no LICENSE file was present in the supplied snapshot. That licensing statement has not been independently established; attribution does not imply an ownership grant. No upstream application code is included here. The importer and replacement UI are independently written. Software binaries and third-party links retain their respective rights and terms.
 
@@ -44,4 +46,4 @@ python scripts/import_catalog.py \
 python -m unittest discover -s tests -p 'data*.py'
 ```
 
-Only Python's standard library is required. The importer does not access the network and produces deterministic bytes for identical inputs and arguments. The current output has 46 products, 209 resources, and 255 download links from 244 source rows containing 514 link occurrences.
+Only Python's standard library is required. The importer does not access the network and produces deterministic bytes for identical inputs and arguments. The initial bootstrap output had 46 products, 209 resources, and 255 download links from 244 source rows containing 514 link occurrences. Live counts and source mode must be read from the current catalog metadata; the independent live parser does not retain duplicate aggregate sections.
