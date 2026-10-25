@@ -1,0 +1,17 @@
+name: Catalog and interface checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript behavior tests
+        run: npm test
+      - name: Data integrity and importer tests
+        run: npm run test:data
+      - name: Syntax check
+        run: node --check app.js && node --check lib/catalog.mjs
