@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "unchanged",
+  "attemptedAt": "2026-10-25T20:13:40Z",
+  "checkedAt": "2026-10-25T20:15:38Z",
+  "updatedAt": "2026-10-25T20:10:41Z",
+  "sourceUrl": "https://www.imsdn.cn",
+  "workflowRunUrl": "https://github.com/Dot-Worker/windows.unblock.win/actions/runs/40229756174",
+  "catalogDigest": "f48f753dc5e14e1de81bd24a2c4ad17ec8e73aeeb87245100c69cde4a78b95c0",
+  "contentChanged": false,
+  "sourceMigration": false,
+  "counts": {
+    "products": 46,
+    "resources": 209,
+    "downloads": 255
+  }
+}
