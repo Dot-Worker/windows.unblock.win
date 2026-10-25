@@ -55,7 +55,7 @@ def classify_language(text):
 
 def classify_arch(text):
     text = text.lower()
-    if re.search(r'arm64|64位arm', text):
+    if re.search(r'arm64|64arm|64位arm', text):
         return 'ARM64'
     x64 = bool(re.search(r'x64|amd64|64bit|64位', text))
     x86 = bool(re.search(r'x86|(?:^|_)w32(?:_|$)|32bit|32位|32/64', text))

@@ -90,6 +90,15 @@ class CatalogTests(unittest.TestCase):
             self.assertEqual(len(resources),2)
             self.assertEqual({r['language'] for r in resources},{'Simplified Chinese','English'})
 
+    def test_windows_11_64arm_filenames_are_arm64(self):
+        arm_rows=[r for r in self.catalog['resources'] if r['filename'] and '64arm' in r['filename'].lower()]
+        self.assertGreaterEqual(len(arm_rows),2)
+        self.assertTrue(any('21H2' in r['filename'] for r in arm_rows))
+        self.assertTrue(any('22H2' in r['filename'] for r in arm_rows))
+        for r in arm_rows:
+            self.assertEqual(module.classify_arch(r['filename']),'ARM64')
+            self.assertEqual(r['architecture'],'ARM64')
+
     def test_grouped_metadata_not_smeared_and_deterministic(self):
         a='ed2k://|file|cn_one_x86.iso|1|AAAA|/'
         b='ed2k://|file|en_two_x64.iso|2|BBBB|/'
