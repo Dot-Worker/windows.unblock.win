@@ -28,6 +28,10 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 GitHub Pages 测试域名为 `msdn.unblock.win`，使用主分支根目录作为发布源。`CNAME` 仅包含此测试域名；DNS 由域名所有者维护。不改动旧站 `windows.unblock.win`，也不自动开启定时抓取任务。实际部署与 HTTPS 状态以仓库 Pages 页面和验收记录为准。
 
+## 修改与构建
+
+源码修改或重新导入数据后，运行 `npm run build` 生成带内容指纹的静态资源，再运行测试。发布时提交生成的 `assets/` 和 `index.html`，避免 CDN 缓存混用不同版本的样式、脚本和数据。详见 [发布说明](RELEASE.md)。
+
 ## 测试
 
 ```sh
