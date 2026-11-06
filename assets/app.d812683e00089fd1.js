@@ -35,7 +35,7 @@ function renderUpdateStatus(){
   if(view.runUrl)content.append(safeLink(view.runUrl,'查看 GitHub Actions 运行记录 ↗'));
 }
 async function loadUpdateStatus(){
-  try{const response=await fetch(new URL('./update-status.6b592a909a0e737f.json', import.meta.url));if(!response.ok)throw new Error('Status unavailable');updateStatus=await response.json();}catch{updateStatus=null;}
+  try{const response=await fetch(new URL('./update-status.00862c5329977038.json', import.meta.url));if(!response.ok)throw new Error('Status unavailable');updateStatus=await response.json();}catch{updateStatus=null;}
   renderUpdateStatus();
 }
 load();
